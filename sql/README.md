@@ -8,4 +8,4 @@ This folder will contain:
   - PMPM cost calculations
   - High-cost member identification
   - Cost by diagnosis, provider specialty, and plan type
-  - Trend analysis (MoM, YoY)
+  - Trend and Cohort analysis
