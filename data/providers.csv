@@ -1,2001 +1,401 @@
-provider_id,provider_type,specialty,state,network_flag
-P00001,Professional,Dermatology,GA,In-Network
-P00002,Professional,Radiology,VA,In-Network
-P00003,Professional,Endocrinology,NC,In-Network
-P00004,Professional,OB/GYN,GA,In-Network
-P00005,Professional,Gastroenterology,NC,In-Network
-P00006,Professional,Dermatology,TN,In-Network
-P00007,Facility,Dermatology,SC,In-Network
-P00008,Professional,Emergency Medicine,VA,In-Network
-P00009,Professional,Primary Care,GA,In-Network
-P00010,Professional,Behavioral Health,AL,In-Network
-P00011,Professional,Cardiology,SC,Out-of-Network
-P00012,Professional,Orthopedics,VA,In-Network
-P00013,Professional,Radiology,TX,In-Network
-P00014,Professional,Endocrinology,AL,In-Network
-P00015,Professional,Emergency Medicine,SC,In-Network
-P00016,Professional,Gastroenterology,TX,In-Network
-P00017,Professional,Gastroenterology,VA,In-Network
-P00018,Professional,Dermatology,AL,Out-of-Network
-P00019,Professional,Cardiology,TX,In-Network
-P00020,Professional,Primary Care,TX,In-Network
-P00021,Professional,Dermatology,NC,In-Network
-P00022,Facility,Endocrinology,AL,In-Network
-P00023,Professional,Behavioral Health,GA,In-Network
-P00024,Facility,Orthopedics,NC,In-Network
-P00025,Professional,Cardiology,GA,In-Network
-P00026,Facility,Orthopedics,AL,In-Network
-P00027,Facility,Endocrinology,TX,In-Network
-P00028,Professional,Behavioral Health,FL,In-Network
-P00029,Facility,OB/GYN,TN,In-Network
-P00030,Professional,Cardiology,TX,In-Network
-P00031,Professional,Behavioral Health,TX,In-Network
-P00032,Professional,OB/GYN,FL,In-Network
-P00033,Professional,Cardiology,NC,In-Network
-P00034,Professional,Primary Care,NC,In-Network
-P00035,Professional,Radiology,GA,Out-of-Network
-P00036,Facility,Endocrinology,AL,In-Network
-P00037,Professional,Cardiology,TN,In-Network
-P00038,Professional,Radiology,GA,Out-of-Network
-P00039,Professional,Dermatology,TX,In-Network
-P00040,Professional,Radiology,NC,In-Network
-P00041,Professional,Endocrinology,TX,In-Network
-P00042,Professional,Endocrinology,TX,In-Network
-P00043,Professional,Dermatology,SC,In-Network
-P00044,Professional,Primary Care,AL,In-Network
-P00045,Professional,Gastroenterology,AL,In-Network
-P00046,Facility,Orthopedics,VA,In-Network
-P00047,Professional,Radiology,NC,In-Network
-P00048,Facility,Endocrinology,AL,In-Network
-P00049,Facility,Primary Care,SC,In-Network
-P00050,Professional,Behavioral Health,TX,Out-of-Network
-P00051,Professional,Behavioral Health,TX,In-Network
-P00052,Professional,Cardiology,TN,Out-of-Network
-P00053,Professional,Radiology,SC,In-Network
-P00054,Professional,Endocrinology,SC,Out-of-Network
-P00055,Professional,Radiology,GA,In-Network
-P00056,Professional,Radiology,TN,In-Network
-P00057,Facility,Orthopedics,SC,In-Network
-P00058,Professional,Dermatology,FL,In-Network
-P00059,Professional,Radiology,TN,In-Network
-P00060,Professional,Primary Care,GA,In-Network
-P00061,Professional,Gastroenterology,VA,Out-of-Network
-P00062,Facility,Endocrinology,SC,Out-of-Network
-P00063,Professional,Orthopedics,TN,In-Network
-P00064,Professional,Behavioral Health,FL,Out-of-Network
-P00065,Professional,Gastroenterology,SC,In-Network
-P00066,Professional,Radiology,SC,In-Network
-P00067,Professional,OB/GYN,SC,Out-of-Network
-P00068,Professional,Emergency Medicine,TX,Out-of-Network
-P00069,Facility,Orthopedics,TX,In-Network
-P00070,Facility,Dermatology,SC,In-Network
-P00071,Professional,Dermatology,TN,In-Network
-P00072,Professional,Primary Care,VA,In-Network
-P00073,Professional,Cardiology,FL,Out-of-Network
-P00074,Professional,Emergency Medicine,GA,In-Network
-P00075,Facility,Endocrinology,SC,In-Network
-P00076,Professional,Orthopedics,FL,In-Network
-P00077,Professional,Endocrinology,TN,In-Network
-P00078,Professional,Emergency Medicine,NC,In-Network
-P00079,Professional,Endocrinology,VA,In-Network
-P00080,Facility,OB/GYN,NC,In-Network
-P00081,Facility,Emergency Medicine,AL,In-Network
-P00082,Facility,Cardiology,VA,In-Network
-P00083,Professional,Gastroenterology,FL,In-Network
-P00084,Professional,Endocrinology,TN,In-Network
-P00085,Professional,Endocrinology,FL,In-Network
-P00086,Professional,Orthopedics,TN,In-Network
-P00087,Facility,Primary Care,GA,In-Network
-P00088,Facility,OB/GYN,SC,In-Network
-P00089,Professional,Dermatology,SC,In-Network
-P00090,Professional,OB/GYN,VA,In-Network
-P00091,Facility,Radiology,NC,In-Network
-P00092,Professional,Gastroenterology,VA,In-Network
-P00093,Facility,Emergency Medicine,TX,In-Network
-P00094,Professional,Primary Care,NC,In-Network
-P00095,Professional,Endocrinology,TX,In-Network
-P00096,Professional,Endocrinology,TN,In-Network
-P00097,Professional,Endocrinology,TX,In-Network
-P00098,Professional,Radiology,GA,In-Network
-P00099,Professional,Behavioral Health,SC,In-Network
-P00100,Facility,Primary Care,SC,In-Network
-P00101,Facility,Endocrinology,TN,In-Network
-P00102,Professional,Gastroenterology,NC,Out-of-Network
-P00103,Professional,Emergency Medicine,NC,In-Network
-P00104,Facility,OB/GYN,FL,In-Network
-P00105,Professional,Cardiology,AL,In-Network
-P00106,Professional,Cardiology,TX,In-Network
-P00107,Professional,Dermatology,TN,In-Network
-P00108,Professional,Dermatology,AL,In-Network
-P00109,Facility,Emergency Medicine,TX,In-Network
-P00110,Professional,Endocrinology,GA,Out-of-Network
-P00111,Professional,Endocrinology,GA,In-Network
-P00112,Professional,Cardiology,FL,In-Network
-P00113,Professional,Cardiology,TN,In-Network
-P00114,Professional,Endocrinology,VA,In-Network
-P00115,Professional,Cardiology,SC,In-Network
-P00116,Professional,Cardiology,TN,In-Network
-P00117,Professional,Gastroenterology,TX,In-Network
-P00118,Professional,Endocrinology,FL,In-Network
-P00119,Professional,Orthopedics,AL,In-Network
-P00120,Professional,Gastroenterology,SC,In-Network
-P00121,Facility,Endocrinology,NC,In-Network
-P00122,Professional,Gastroenterology,TN,In-Network
-P00123,Professional,Emergency Medicine,TN,Out-of-Network
-P00124,Professional,Orthopedics,TN,In-Network
-P00125,Facility,Primary Care,FL,In-Network
-P00126,Professional,Endocrinology,AL,In-Network
-P00127,Professional,Emergency Medicine,SC,In-Network
-P00128,Professional,Cardiology,GA,In-Network
-P00129,Professional,Gastroenterology,SC,In-Network
-P00130,Professional,Gastroenterology,NC,In-Network
-P00131,Professional,Cardiology,SC,In-Network
-P00132,Facility,Behavioral Health,GA,In-Network
-P00133,Professional,Dermatology,SC,In-Network
-P00134,Professional,Endocrinology,AL,In-Network
-P00135,Professional,Behavioral Health,SC,In-Network
-P00136,Professional,OB/GYN,AL,Out-of-Network
-P00137,Professional,Endocrinology,SC,In-Network
-P00138,Facility,Dermatology,AL,In-Network
-P00139,Professional,OB/GYN,VA,In-Network
-P00140,Professional,Primary Care,VA,In-Network
-P00141,Professional,Gastroenterology,TX,In-Network
-P00142,Facility,Orthopedics,TN,In-Network
-P00143,Professional,Primary Care,TX,In-Network
-P00144,Facility,Dermatology,VA,In-Network
-P00145,Professional,Dermatology,VA,In-Network
-P00146,Professional,Orthopedics,AL,In-Network
-P00147,Professional,Dermatology,TX,In-Network
-P00148,Professional,Primary Care,TN,In-Network
-P00149,Professional,Cardiology,AL,In-Network
-P00150,Professional,Cardiology,FL,In-Network
-P00151,Professional,Gastroenterology,TX,In-Network
-P00152,Professional,Primary Care,FL,Out-of-Network
-P00153,Professional,Behavioral Health,VA,In-Network
-P00154,Facility,Emergency Medicine,GA,In-Network
-P00155,Professional,Cardiology,SC,In-Network
-P00156,Professional,Primary Care,NC,In-Network
-P00157,Professional,Dermatology,SC,In-Network
-P00158,Facility,OB/GYN,NC,In-Network
-P00159,Facility,Emergency Medicine,NC,Out-of-Network
-P00160,Professional,Dermatology,NC,In-Network
-P00161,Professional,Dermatology,AL,In-Network
-P00162,Professional,OB/GYN,FL,In-Network
-P00163,Facility,Gastroenterology,GA,Out-of-Network
-P00164,Professional,Behavioral Health,FL,In-Network
-P00165,Professional,Gastroenterology,TX,In-Network
-P00166,Professional,Behavioral Health,VA,In-Network
-P00167,Professional,Orthopedics,TN,In-Network
-P00168,Professional,Orthopedics,AL,In-Network
-P00169,Professional,OB/GYN,TX,Out-of-Network
-P00170,Professional,OB/GYN,FL,Out-of-Network
-P00171,Professional,Dermatology,TX,In-Network
-P00172,Facility,Gastroenterology,TX,In-Network
-P00173,Professional,Behavioral Health,TX,In-Network
-P00174,Professional,Emergency Medicine,GA,In-Network
-P00175,Professional,OB/GYN,GA,Out-of-Network
-P00176,Facility,Emergency Medicine,SC,Out-of-Network
-P00177,Facility,Dermatology,TN,In-Network
-P00178,Professional,Radiology,NC,Out-of-Network
-P00179,Professional,OB/GYN,AL,In-Network
-P00180,Professional,Orthopedics,AL,In-Network
-P00181,Professional,Orthopedics,FL,In-Network
-P00182,Professional,Dermatology,SC,In-Network
-P00183,Professional,Cardiology,SC,In-Network
-P00184,Professional,Radiology,FL,In-Network
-P00185,Professional,Gastroenterology,GA,In-Network
-P00186,Professional,Dermatology,GA,In-Network
-P00187,Professional,Dermatology,TN,Out-of-Network
-P00188,Professional,Behavioral Health,FL,In-Network
-P00189,Professional,Radiology,FL,In-Network
-P00190,Professional,Radiology,SC,In-Network
-P00191,Facility,Radiology,TN,In-Network
-P00192,Professional,Primary Care,AL,In-Network
-P00193,Professional,Primary Care,TN,In-Network
-P00194,Professional,Gastroenterology,SC,Out-of-Network
-P00195,Professional,Primary Care,VA,In-Network
-P00196,Professional,Radiology,VA,In-Network
-P00197,Professional,Gastroenterology,SC,Out-of-Network
-P00198,Professional,Endocrinology,TX,In-Network
-P00199,Professional,Orthopedics,TN,In-Network
-P00200,Professional,Cardiology,VA,In-Network
-P00201,Facility,Gastroenterology,VA,In-Network
-P00202,Professional,OB/GYN,TX,In-Network
-P00203,Professional,Endocrinology,AL,In-Network
-P00204,Professional,Radiology,FL,In-Network
-P00205,Facility,Primary Care,VA,In-Network
-P00206,Facility,Primary Care,TX,In-Network
-P00207,Professional,Behavioral Health,NC,In-Network
-P00208,Facility,OB/GYN,VA,In-Network
-P00209,Professional,Primary Care,GA,In-Network
-P00210,Professional,Dermatology,SC,In-Network
-P00211,Professional,OB/GYN,TX,In-Network
-P00212,Professional,Radiology,SC,In-Network
-P00213,Professional,Radiology,NC,Out-of-Network
-P00214,Facility,OB/GYN,TN,In-Network
-P00215,Professional,Emergency Medicine,VA,In-Network
-P00216,Facility,OB/GYN,SC,In-Network
-P00217,Professional,Radiology,VA,In-Network
-P00218,Professional,Behavioral Health,TN,In-Network
-P00219,Professional,Dermatology,TN,In-Network
-P00220,Professional,Orthopedics,TN,Out-of-Network
-P00221,Professional,Orthopedics,SC,In-Network
-P00222,Professional,Emergency Medicine,NC,In-Network
-P00223,Professional,Primary Care,SC,In-Network
-P00224,Professional,Gastroenterology,GA,In-Network
-P00225,Facility,Behavioral Health,AL,In-Network
-P00226,Professional,Dermatology,AL,In-Network
-P00227,Professional,Primary Care,TX,In-Network
-P00228,Professional,Dermatology,GA,In-Network
-P00229,Facility,Orthopedics,TX,In-Network
-P00230,Facility,Behavioral Health,GA,In-Network
-P00231,Professional,Primary Care,NC,Out-of-Network
-P00232,Professional,OB/GYN,SC,In-Network
-P00233,Professional,Cardiology,VA,Out-of-Network
-P00234,Professional,Radiology,NC,In-Network
-P00235,Professional,Behavioral Health,TN,In-Network
-P00236,Professional,Orthopedics,VA,In-Network
-P00237,Professional,Cardiology,FL,In-Network
-P00238,Facility,OB/GYN,NC,In-Network
-P00239,Facility,Cardiology,VA,In-Network
-P00240,Professional,Endocrinology,SC,In-Network
-P00241,Facility,Cardiology,SC,In-Network
-P00242,Facility,Dermatology,NC,In-Network
-P00243,Facility,Cardiology,TN,In-Network
-P00244,Professional,Primary Care,FL,In-Network
-P00245,Professional,Orthopedics,NC,In-Network
-P00246,Professional,Endocrinology,NC,In-Network
-P00247,Facility,Dermatology,SC,In-Network
-P00248,Professional,Endocrinology,VA,In-Network
-P00249,Professional,Cardiology,GA,In-Network
-P00250,Professional,Cardiology,TX,In-Network
-P00251,Facility,Cardiology,SC,In-Network
-P00252,Professional,Behavioral Health,TX,In-Network
-P00253,Facility,Gastroenterology,SC,Out-of-Network
-P00254,Professional,Orthopedics,SC,In-Network
-P00255,Professional,Orthopedics,AL,In-Network
-P00256,Professional,Behavioral Health,GA,In-Network
-P00257,Professional,Primary Care,SC,In-Network
-P00258,Professional,Behavioral Health,AL,In-Network
-P00259,Professional,Dermatology,AL,Out-of-Network
-P00260,Facility,Orthopedics,TX,In-Network
-P00261,Professional,OB/GYN,TN,In-Network
-P00262,Professional,Radiology,SC,In-Network
-P00263,Professional,Orthopedics,FL,In-Network
-P00264,Facility,Dermatology,NC,In-Network
-P00265,Professional,Primary Care,TX,In-Network
-P00266,Professional,Dermatology,NC,In-Network
-P00267,Professional,Cardiology,GA,Out-of-Network
-P00268,Facility,Endocrinology,SC,In-Network
-P00269,Professional,Orthopedics,GA,In-Network
-P00270,Professional,OB/GYN,TX,Out-of-Network
-P00271,Professional,Dermatology,GA,In-Network
-P00272,Professional,Radiology,TX,In-Network
-P00273,Facility,Primary Care,TN,In-Network
-P00274,Professional,Behavioral Health,TX,In-Network
-P00275,Professional,Emergency Medicine,GA,In-Network
-P00276,Professional,Endocrinology,TN,In-Network
-P00277,Facility,Emergency Medicine,AL,In-Network
-P00278,Professional,Behavioral Health,VA,In-Network
-P00279,Facility,Behavioral Health,TN,In-Network
-P00280,Professional,Orthopedics,TX,In-Network
-P00281,Professional,Orthopedics,NC,In-Network
-P00282,Facility,Cardiology,NC,In-Network
-P00283,Professional,Orthopedics,GA,In-Network
-P00284,Professional,Emergency Medicine,SC,Out-of-Network
-P00285,Professional,Cardiology,SC,In-Network
-P00286,Professional,Dermatology,SC,In-Network
-P00287,Professional,Endocrinology,AL,In-Network
-P00288,Professional,Endocrinology,TX,In-Network
-P00289,Professional,Emergency Medicine,NC,In-Network
-P00290,Professional,Primary Care,SC,In-Network
-P00291,Professional,Primary Care,TX,In-Network
-P00292,Professional,Emergency Medicine,NC,In-Network
-P00293,Professional,Endocrinology,TN,In-Network
-P00294,Professional,Primary Care,VA,In-Network
-P00295,Professional,Cardiology,VA,In-Network
-P00296,Facility,Endocrinology,TX,Out-of-Network
-P00297,Professional,Dermatology,SC,In-Network
-P00298,Professional,Emergency Medicine,NC,Out-of-Network
-P00299,Professional,Gastroenterology,FL,In-Network
-P00300,Professional,Cardiology,GA,In-Network
-P00301,Professional,Endocrinology,GA,In-Network
-P00302,Facility,Dermatology,TX,In-Network
-P00303,Professional,Endocrinology,FL,In-Network
-P00304,Professional,Gastroenterology,TN,Out-of-Network
-P00305,Professional,Emergency Medicine,GA,In-Network
-P00306,Professional,Cardiology,SC,In-Network
-P00307,Professional,Behavioral Health,TX,In-Network
-P00308,Facility,Gastroenterology,AL,In-Network
-P00309,Facility,Orthopedics,GA,In-Network
-P00310,Facility,Endocrinology,TX,In-Network
-P00311,Facility,Radiology,AL,In-Network
-P00312,Professional,Behavioral Health,VA,In-Network
-P00313,Professional,Gastroenterology,FL,In-Network
-P00314,Professional,Emergency Medicine,NC,In-Network
-P00315,Professional,Orthopedics,SC,Out-of-Network
-P00316,Facility,OB/GYN,VA,In-Network
-P00317,Professional,Primary Care,SC,Out-of-Network
-P00318,Professional,Primary Care,NC,In-Network
-P00319,Professional,Dermatology,AL,In-Network
-P00320,Facility,Endocrinology,SC,In-Network
-P00321,Professional,Dermatology,SC,In-Network
-P00322,Professional,Primary Care,NC,In-Network
-P00323,Professional,Behavioral Health,NC,Out-of-Network
-P00324,Professional,Endocrinology,TN,In-Network
-P00325,Facility,Primary Care,TX,Out-of-Network
-P00326,Professional,Dermatology,TN,In-Network
-P00327,Professional,Endocrinology,VA,Out-of-Network
-P00328,Professional,Cardiology,NC,In-Network
-P00329,Professional,Dermatology,SC,In-Network
-P00330,Professional,Cardiology,NC,In-Network
-P00331,Professional,Orthopedics,FL,Out-of-Network
-P00332,Professional,Behavioral Health,GA,Out-of-Network
-P00333,Professional,Primary Care,NC,In-Network
-P00334,Professional,Emergency Medicine,TN,In-Network
-P00335,Professional,Cardiology,VA,Out-of-Network
-P00336,Professional,Radiology,AL,In-Network
-P00337,Professional,Orthopedics,TN,Out-of-Network
-P00338,Professional,OB/GYN,SC,In-Network
-P00339,Professional,Primary Care,AL,In-Network
-P00340,Professional,Endocrinology,SC,In-Network
-P00341,Professional,Behavioral Health,TN,In-Network
-P00342,Professional,Emergency Medicine,FL,Out-of-Network
-P00343,Professional,Radiology,TN,In-Network
-P00344,Professional,Emergency Medicine,AL,In-Network
-P00345,Professional,Cardiology,TX,Out-of-Network
-P00346,Professional,Dermatology,AL,Out-of-Network
-P00347,Professional,Orthopedics,TX,In-Network
-P00348,Professional,Radiology,VA,Out-of-Network
-P00349,Professional,Endocrinology,FL,In-Network
-P00350,Professional,OB/GYN,TX,In-Network
-P00351,Facility,Gastroenterology,AL,In-Network
-P00352,Professional,Emergency Medicine,FL,In-Network
-P00353,Professional,Endocrinology,FL,In-Network
-P00354,Facility,Dermatology,FL,In-Network
-P00355,Professional,Gastroenterology,AL,In-Network
-P00356,Professional,Radiology,AL,In-Network
-P00357,Facility,Emergency Medicine,TX,In-Network
-P00358,Professional,Radiology,SC,In-Network
-P00359,Professional,Dermatology,AL,Out-of-Network
-P00360,Facility,Primary Care,NC,Out-of-Network
-P00361,Professional,OB/GYN,SC,In-Network
-P00362,Facility,Endocrinology,TX,In-Network
-P00363,Professional,Primary Care,FL,In-Network
-P00364,Facility,OB/GYN,GA,Out-of-Network
-P00365,Professional,Endocrinology,VA,In-Network
-P00366,Professional,Orthopedics,TX,In-Network
-P00367,Facility,Behavioral Health,GA,In-Network
-P00368,Professional,Behavioral Health,TX,In-Network
-P00369,Professional,Behavioral Health,SC,Out-of-Network
-P00370,Professional,Cardiology,FL,In-Network
-P00371,Facility,Emergency Medicine,VA,In-Network
-P00372,Professional,Dermatology,TX,In-Network
-P00373,Professional,Radiology,VA,In-Network
-P00374,Facility,Dermatology,VA,In-Network
-P00375,Professional,Endocrinology,TN,In-Network
-P00376,Professional,Dermatology,TN,Out-of-Network
-P00377,Professional,Endocrinology,FL,In-Network
-P00378,Professional,Endocrinology,NC,In-Network
-P00379,Professional,OB/GYN,GA,In-Network
-P00380,Facility,Dermatology,AL,Out-of-Network
-P00381,Professional,Behavioral Health,TX,In-Network
-P00382,Facility,OB/GYN,FL,In-Network
-P00383,Professional,Gastroenterology,VA,In-Network
-P00384,Professional,Dermatology,VA,In-Network
-P00385,Professional,Endocrinology,GA,Out-of-Network
-P00386,Facility,Radiology,SC,In-Network
-P00387,Professional,Orthopedics,TX,In-Network
-P00388,Professional,Gastroenterology,TX,In-Network
-P00389,Professional,OB/GYN,NC,In-Network
-P00390,Facility,Dermatology,GA,In-Network
-P00391,Professional,Dermatology,VA,In-Network
-P00392,Professional,OB/GYN,TX,In-Network
-P00393,Professional,Cardiology,NC,In-Network
-P00394,Professional,Primary Care,TN,In-Network
-P00395,Professional,Primary Care,SC,In-Network
-P00396,Facility,Primary Care,NC,In-Network
-P00397,Professional,Radiology,GA,Out-of-Network
-P00398,Professional,Dermatology,VA,In-Network
-P00399,Facility,Cardiology,SC,In-Network
-P00400,Professional,Gastroenterology,NC,In-Network
-P00401,Professional,Emergency Medicine,VA,In-Network
-P00402,Professional,Radiology,VA,In-Network
-P00403,Facility,Dermatology,SC,Out-of-Network
-P00404,Facility,Dermatology,TN,In-Network
-P00405,Professional,Endocrinology,TN,In-Network
-P00406,Professional,Emergency Medicine,VA,In-Network
-P00407,Professional,Radiology,GA,In-Network
-P00408,Professional,OB/GYN,VA,In-Network
-P00409,Professional,Behavioral Health,FL,In-Network
-P00410,Professional,Cardiology,NC,Out-of-Network
-P00411,Facility,Cardiology,GA,In-Network
-P00412,Professional,Orthopedics,TX,In-Network
-P00413,Professional,Dermatology,NC,In-Network
-P00414,Professional,Radiology,TN,In-Network
-P00415,Professional,Radiology,NC,In-Network
-P00416,Professional,OB/GYN,GA,In-Network
-P00417,Professional,Primary Care,VA,In-Network
-P00418,Professional,Dermatology,FL,Out-of-Network
-P00419,Professional,Radiology,FL,In-Network
-P00420,Professional,Gastroenterology,AL,In-Network
-P00421,Professional,Orthopedics,TX,In-Network
-P00422,Professional,Orthopedics,GA,In-Network
-P00423,Professional,Behavioral Health,VA,In-Network
-P00424,Facility,Endocrinology,AL,In-Network
-P00425,Facility,Radiology,NC,In-Network
-P00426,Professional,Emergency Medicine,VA,Out-of-Network
-P00427,Facility,Primary Care,TN,In-Network
-P00428,Professional,Radiology,NC,Out-of-Network
-P00429,Facility,Dermatology,SC,In-Network
-P00430,Professional,Behavioral Health,NC,In-Network
-P00431,Professional,Emergency Medicine,TN,In-Network
-P00432,Facility,Dermatology,TX,In-Network
-P00433,Professional,OB/GYN,AL,In-Network
-P00434,Professional,Radiology,FL,In-Network
-P00435,Professional,Emergency Medicine,SC,In-Network
-P00436,Facility,Radiology,AL,In-Network
-P00437,Facility,Orthopedics,FL,In-Network
-P00438,Professional,Endocrinology,AL,In-Network
-P00439,Professional,Cardiology,SC,In-Network
-P00440,Professional,Primary Care,AL,In-Network
-P00441,Professional,Orthopedics,NC,In-Network
-P00442,Professional,Radiology,AL,In-Network
-P00443,Professional,Radiology,SC,Out-of-Network
-P00444,Professional,Primary Care,GA,In-Network
-P00445,Professional,Radiology,FL,In-Network
-P00446,Professional,Orthopedics,SC,In-Network
-P00447,Professional,Emergency Medicine,VA,In-Network
-P00448,Professional,Primary Care,AL,In-Network
-P00449,Facility,Endocrinology,TX,In-Network
-P00450,Professional,Orthopedics,VA,In-Network
-P00451,Professional,Cardiology,TX,In-Network
-P00452,Professional,Gastroenterology,TN,In-Network
-P00453,Professional,Gastroenterology,GA,In-Network
-P00454,Professional,Dermatology,VA,In-Network
-P00455,Professional,Endocrinology,FL,Out-of-Network
-P00456,Professional,Primary Care,GA,In-Network
-P00457,Facility,OB/GYN,VA,In-Network
-P00458,Professional,Emergency Medicine,FL,In-Network
-P00459,Professional,Behavioral Health,TN,In-Network
-P00460,Professional,Emergency Medicine,GA,In-Network
-P00461,Professional,Gastroenterology,GA,In-Network
-P00462,Professional,Primary Care,FL,In-Network
-P00463,Facility,Behavioral Health,NC,Out-of-Network
-P00464,Facility,Primary Care,FL,In-Network
-P00465,Professional,Radiology,GA,In-Network
-P00466,Professional,Endocrinology,TN,In-Network
-P00467,Facility,Behavioral Health,TN,In-Network
-P00468,Professional,Cardiology,NC,In-Network
-P00469,Professional,Gastroenterology,NC,Out-of-Network
-P00470,Professional,Cardiology,GA,In-Network
-P00471,Professional,Cardiology,NC,In-Network
-P00472,Professional,Behavioral Health,VA,In-Network
-P00473,Facility,Orthopedics,TN,In-Network
-P00474,Facility,OB/GYN,GA,In-Network
-P00475,Professional,Orthopedics,AL,In-Network
-P00476,Professional,Orthopedics,AL,In-Network
-P00477,Professional,Orthopedics,NC,In-Network
-P00478,Professional,Emergency Medicine,TN,In-Network
-P00479,Professional,Primary Care,NC,In-Network
-P00480,Facility,Orthopedics,TN,In-Network
-P00481,Professional,Radiology,AL,In-Network
-P00482,Professional,Orthopedics,GA,In-Network
-P00483,Professional,Radiology,TN,Out-of-Network
-P00484,Facility,Primary Care,AL,In-Network
-P00485,Professional,Endocrinology,TX,In-Network
-P00486,Facility,Cardiology,FL,In-Network
-P00487,Professional,Radiology,SC,In-Network
-P00488,Professional,Radiology,TN,In-Network
-P00489,Professional,Dermatology,VA,In-Network
-P00490,Professional,Orthopedics,VA,In-Network
-P00491,Professional,Gastroenterology,TX,In-Network
-P00492,Professional,Cardiology,NC,Out-of-Network
-P00493,Facility,Emergency Medicine,AL,Out-of-Network
-P00494,Professional,Emergency Medicine,VA,In-Network
-P00495,Professional,Dermatology,AL,In-Network
-P00496,Professional,Dermatology,FL,In-Network
-P00497,Professional,Behavioral Health,TN,In-Network
-P00498,Professional,Behavioral Health,TN,In-Network
-P00499,Professional,Emergency Medicine,GA,In-Network
-P00500,Professional,Gastroenterology,TN,In-Network
-P00501,Professional,Gastroenterology,FL,In-Network
-P00502,Professional,Dermatology,NC,In-Network
-P00503,Professional,Dermatology,GA,Out-of-Network
-P00504,Professional,Orthopedics,FL,In-Network
-P00505,Professional,Endocrinology,VA,Out-of-Network
-P00506,Professional,Cardiology,SC,In-Network
-P00507,Professional,Cardiology,TN,In-Network
-P00508,Professional,Gastroenterology,AL,In-Network
-P00509,Facility,Primary Care,FL,In-Network
-P00510,Professional,Primary Care,FL,In-Network
-P00511,Professional,Emergency Medicine,AL,In-Network
-P00512,Professional,OB/GYN,NC,In-Network
-P00513,Professional,Gastroenterology,AL,In-Network
-P00514,Professional,Endocrinology,SC,In-Network
-P00515,Facility,OB/GYN,VA,In-Network
-P00516,Professional,Endocrinology,VA,In-Network
-P00517,Professional,OB/GYN,AL,In-Network
-P00518,Professional,OB/GYN,VA,Out-of-Network
-P00519,Facility,Emergency Medicine,TN,In-Network
-P00520,Professional,Emergency Medicine,TX,In-Network
-P00521,Professional,OB/GYN,AL,In-Network
-P00522,Facility,Emergency Medicine,GA,Out-of-Network
-P00523,Professional,Emergency Medicine,AL,In-Network
-P00524,Professional,Orthopedics,AL,In-Network
-P00525,Professional,Emergency Medicine,NC,In-Network
-P00526,Professional,Dermatology,SC,In-Network
-P00527,Professional,Cardiology,GA,In-Network
-P00528,Professional,Emergency Medicine,VA,In-Network
-P00529,Professional,Primary Care,SC,In-Network
-P00530,Professional,Dermatology,AL,In-Network
-P00531,Professional,Emergency Medicine,TN,In-Network
-P00532,Professional,Emergency Medicine,AL,In-Network
-P00533,Facility,Dermatology,VA,In-Network
-P00534,Professional,Emergency Medicine,AL,In-Network
-P00535,Facility,Radiology,GA,Out-of-Network
-P00536,Professional,Gastroenterology,FL,In-Network
-P00537,Professional,Dermatology,FL,Out-of-Network
-P00538,Professional,Gastroenterology,FL,In-Network
-P00539,Professional,Behavioral Health,SC,Out-of-Network
-P00540,Professional,Emergency Medicine,TX,In-Network
-P00541,Professional,Emergency Medicine,FL,In-Network
-P00542,Professional,Dermatology,FL,In-Network
-P00543,Professional,Cardiology,TN,In-Network
-P00544,Professional,Behavioral Health,FL,Out-of-Network
-P00545,Professional,Dermatology,VA,Out-of-Network
-P00546,Professional,Behavioral Health,SC,In-Network
-P00547,Professional,Orthopedics,TX,In-Network
-P00548,Professional,Primary Care,SC,In-Network
-P00549,Professional,OB/GYN,TX,Out-of-Network
-P00550,Facility,Gastroenterology,NC,Out-of-Network
-P00551,Professional,Primary Care,VA,In-Network
-P00552,Professional,Gastroenterology,TX,In-Network
-P00553,Professional,OB/GYN,FL,Out-of-Network
-P00554,Professional,Gastroenterology,VA,In-Network
-P00555,Professional,Endocrinology,VA,Out-of-Network
-P00556,Professional,Radiology,VA,In-Network
-P00557,Professional,Behavioral Health,SC,In-Network
-P00558,Professional,Radiology,VA,In-Network
-P00559,Professional,Radiology,GA,In-Network
-P00560,Facility,Cardiology,NC,In-Network
-P00561,Professional,Orthopedics,TX,In-Network
-P00562,Professional,OB/GYN,NC,In-Network
-P00563,Facility,Cardiology,SC,In-Network
-P00564,Professional,Endocrinology,TN,Out-of-Network
-P00565,Professional,Primary Care,VA,In-Network
-P00566,Facility,Endocrinology,FL,In-Network
-P00567,Facility,Orthopedics,SC,In-Network
-P00568,Professional,Endocrinology,FL,In-Network
-P00569,Professional,Orthopedics,AL,Out-of-Network
-P00570,Professional,Dermatology,AL,In-Network
-P00571,Professional,Endocrinology,NC,In-Network
-P00572,Professional,OB/GYN,TX,In-Network
-P00573,Professional,Dermatology,GA,In-Network
-P00574,Facility,Dermatology,TX,In-Network
-P00575,Professional,Cardiology,NC,In-Network
-P00576,Facility,Endocrinology,AL,Out-of-Network
-P00577,Professional,Endocrinology,TX,In-Network
-P00578,Facility,Dermatology,NC,In-Network
-P00579,Professional,Dermatology,FL,In-Network
-P00580,Professional,Endocrinology,FL,In-Network
-P00581,Professional,Gastroenterology,FL,In-Network
-P00582,Professional,Cardiology,NC,In-Network
-P00583,Facility,Emergency Medicine,SC,In-Network
-P00584,Professional,Gastroenterology,AL,Out-of-Network
-P00585,Professional,Cardiology,FL,In-Network
-P00586,Professional,Emergency Medicine,TN,In-Network
-P00587,Professional,OB/GYN,SC,In-Network
-P00588,Facility,Radiology,SC,In-Network
-P00589,Professional,OB/GYN,GA,In-Network
-P00590,Professional,Radiology,NC,In-Network
-P00591,Professional,Cardiology,AL,In-Network
-P00592,Professional,OB/GYN,AL,In-Network
-P00593,Professional,Emergency Medicine,FL,In-Network
-P00594,Professional,Endocrinology,TN,In-Network
-P00595,Professional,Gastroenterology,SC,Out-of-Network
-P00596,Facility,Emergency Medicine,TX,In-Network
-P00597,Facility,OB/GYN,GA,In-Network
-P00598,Professional,Primary Care,AL,In-Network
-P00599,Professional,Endocrinology,AL,In-Network
-P00600,Professional,OB/GYN,GA,Out-of-Network
-P00601,Professional,Gastroenterology,VA,In-Network
-P00602,Facility,Endocrinology,FL,In-Network
-P00603,Professional,Emergency Medicine,NC,In-Network
-P00604,Professional,Cardiology,AL,In-Network
-P00605,Professional,Orthopedics,VA,In-Network
-P00606,Professional,Radiology,SC,In-Network
-P00607,Professional,Primary Care,NC,In-Network
-P00608,Professional,Orthopedics,TN,In-Network
-P00609,Facility,Radiology,NC,In-Network
-P00610,Facility,Behavioral Health,FL,In-Network
-P00611,Facility,Gastroenterology,GA,In-Network
-P00612,Facility,OB/GYN,VA,In-Network
-P00613,Professional,Dermatology,VA,In-Network
-P00614,Professional,OB/GYN,SC,In-Network
-P00615,Professional,OB/GYN,GA,In-Network
-P00616,Professional,Gastroenterology,GA,Out-of-Network
-P00617,Facility,Radiology,FL,In-Network
-P00618,Professional,Gastroenterology,TX,Out-of-Network
-P00619,Professional,Primary Care,FL,In-Network
-P00620,Professional,Radiology,GA,In-Network
-P00621,Professional,Radiology,GA,In-Network
-P00622,Professional,Gastroenterology,VA,In-Network
-P00623,Professional,Gastroenterology,NC,In-Network
-P00624,Facility,Orthopedics,VA,In-Network
-P00625,Facility,OB/GYN,GA,In-Network
-P00626,Professional,Radiology,SC,In-Network
-P00627,Facility,Gastroenterology,AL,In-Network
-P00628,Professional,Emergency Medicine,SC,In-Network
-P00629,Facility,Cardiology,TN,In-Network
-P00630,Professional,Primary Care,FL,In-Network
-P00631,Professional,Dermatology,SC,In-Network
-P00632,Professional,Primary Care,NC,In-Network
-P00633,Facility,Endocrinology,NC,In-Network
-P00634,Professional,Endocrinology,AL,In-Network
-P00635,Professional,Cardiology,TX,In-Network
-P00636,Professional,Endocrinology,TX,In-Network
-P00637,Professional,Primary Care,GA,In-Network
-P00638,Facility,Cardiology,TN,In-Network
-P00639,Professional,Radiology,SC,In-Network
-P00640,Professional,Endocrinology,VA,Out-of-Network
-P00641,Professional,Endocrinology,TN,In-Network
-P00642,Facility,Radiology,NC,Out-of-Network
-P00643,Professional,OB/GYN,SC,In-Network
-P00644,Professional,Radiology,FL,In-Network
-P00645,Professional,Primary Care,TX,In-Network
-P00646,Professional,Radiology,SC,In-Network
-P00647,Professional,OB/GYN,NC,In-Network
-P00648,Professional,Endocrinology,TX,In-Network
-P00649,Professional,Radiology,TX,Out-of-Network
-P00650,Professional,Gastroenterology,SC,In-Network
-P00651,Facility,Dermatology,TN,In-Network
-P00652,Professional,Primary Care,NC,In-Network
-P00653,Professional,Emergency Medicine,TN,In-Network
-P00654,Professional,Cardiology,VA,In-Network
-P00655,Facility,Dermatology,AL,In-Network
-P00656,Professional,Primary Care,TN,In-Network
-P00657,Professional,Dermatology,NC,In-Network
-P00658,Professional,Behavioral Health,FL,In-Network
-P00659,Facility,OB/GYN,TX,In-Network
-P00660,Professional,Gastroenterology,VA,In-Network
-P00661,Professional,Orthopedics,TN,In-Network
-P00662,Professional,Orthopedics,FL,Out-of-Network
-P00663,Professional,Primary Care,GA,In-Network
-P00664,Professional,Behavioral Health,VA,In-Network
-P00665,Professional,Endocrinology,NC,In-Network
-P00666,Professional,Cardiology,GA,Out-of-Network
-P00667,Professional,Endocrinology,AL,In-Network
-P00668,Facility,OB/GYN,AL,Out-of-Network
-P00669,Facility,Orthopedics,VA,In-Network
-P00670,Professional,Radiology,GA,In-Network
-P00671,Professional,Dermatology,NC,In-Network
-P00672,Professional,Dermatology,TX,In-Network
-P00673,Professional,Emergency Medicine,VA,In-Network
-P00674,Professional,Dermatology,FL,In-Network
-P00675,Professional,Emergency Medicine,GA,In-Network
-P00676,Professional,Cardiology,VA,In-Network
-P00677,Professional,Primary Care,SC,In-Network
-P00678,Professional,Gastroenterology,GA,In-Network
-P00679,Professional,Emergency Medicine,FL,In-Network
-P00680,Professional,Dermatology,GA,In-Network
-P00681,Professional,Emergency Medicine,NC,In-Network
-P00682,Professional,Primary Care,FL,In-Network
-P00683,Professional,Emergency Medicine,TN,In-Network
-P00684,Professional,Primary Care,VA,In-Network
-P00685,Professional,Orthopedics,TN,In-Network
-P00686,Professional,Orthopedics,TX,In-Network
-P00687,Professional,Orthopedics,VA,In-Network
-P00688,Professional,Dermatology,SC,In-Network
-P00689,Professional,Cardiology,AL,Out-of-Network
-P00690,Professional,Primary Care,GA,In-Network
-P00691,Facility,Behavioral Health,NC,In-Network
-P00692,Professional,Gastroenterology,SC,In-Network
-P00693,Professional,Gastroenterology,FL,Out-of-Network
-P00694,Professional,Endocrinology,AL,In-Network
-P00695,Professional,Primary Care,AL,In-Network
-P00696,Professional,OB/GYN,GA,In-Network
-P00697,Professional,Emergency Medicine,AL,In-Network
-P00698,Professional,Behavioral Health,NC,In-Network
-P00699,Professional,Endocrinology,NC,In-Network
-P00700,Professional,Emergency Medicine,TN,In-Network
-P00701,Professional,Emergency Medicine,TN,In-Network
-P00702,Facility,Radiology,NC,In-Network
-P00703,Professional,OB/GYN,VA,Out-of-Network
-P00704,Professional,Gastroenterology,GA,Out-of-Network
-P00705,Professional,Primary Care,VA,In-Network
-P00706,Professional,Orthopedics,FL,In-Network
-P00707,Professional,Behavioral Health,VA,In-Network
-P00708,Professional,Dermatology,TX,In-Network
-P00709,Facility,Gastroenterology,SC,In-Network
-P00710,Professional,OB/GYN,GA,In-Network
-P00711,Professional,Gastroenterology,SC,In-Network
-P00712,Professional,Cardiology,NC,In-Network
-P00713,Professional,Endocrinology,FL,In-Network
-P00714,Professional,Dermatology,TX,In-Network
-P00715,Professional,Behavioral Health,SC,In-Network
-P00716,Professional,Gastroenterology,NC,In-Network
-P00717,Professional,Orthopedics,FL,In-Network
-P00718,Professional,Cardiology,SC,In-Network
-P00719,Facility,Radiology,FL,In-Network
-P00720,Facility,OB/GYN,TX,In-Network
-P00721,Professional,Cardiology,SC,In-Network
-P00722,Professional,Orthopedics,VA,In-Network
-P00723,Professional,Behavioral Health,NC,In-Network
-P00724,Professional,Dermatology,VA,Out-of-Network
-P00725,Professional,Radiology,AL,Out-of-Network
-P00726,Professional,Dermatology,TN,In-Network
-P00727,Professional,OB/GYN,GA,In-Network
-P00728,Professional,Primary Care,AL,Out-of-Network
-P00729,Professional,Behavioral Health,VA,In-Network
-P00730,Professional,Emergency Medicine,AL,In-Network
-P00731,Professional,Cardiology,VA,Out-of-Network
-P00732,Professional,Behavioral Health,TX,Out-of-Network
-P00733,Professional,Primary Care,GA,In-Network
-P00734,Facility,Orthopedics,TX,In-Network
-P00735,Professional,Cardiology,TN,In-Network
-P00736,Facility,Emergency Medicine,SC,In-Network
-P00737,Professional,OB/GYN,GA,In-Network
-P00738,Professional,Orthopedics,FL,In-Network
-P00739,Professional,Orthopedics,VA,In-Network
-P00740,Professional,OB/GYN,SC,In-Network
-P00741,Professional,OB/GYN,SC,In-Network
-P00742,Professional,Radiology,AL,In-Network
-P00743,Professional,Orthopedics,FL,In-Network
-P00744,Professional,Gastroenterology,GA,In-Network
-P00745,Professional,Behavioral Health,VA,In-Network
-P00746,Professional,Endocrinology,NC,In-Network
-P00747,Professional,Behavioral Health,SC,In-Network
-P00748,Professional,Radiology,FL,In-Network
-P00749,Professional,Dermatology,VA,In-Network
-P00750,Professional,Endocrinology,SC,In-Network
-P00751,Professional,Gastroenterology,TX,In-Network
-P00752,Professional,Cardiology,NC,In-Network
-P00753,Professional,Primary Care,TX,In-Network
-P00754,Professional,Primary Care,VA,In-Network
-P00755,Professional,OB/GYN,VA,In-Network
-P00756,Professional,OB/GYN,VA,In-Network
-P00757,Professional,Gastroenterology,TN,Out-of-Network
-P00758,Professional,Cardiology,VA,Out-of-Network
-P00759,Professional,Primary Care,AL,In-Network
-P00760,Facility,Behavioral Health,FL,In-Network
-P00761,Professional,Dermatology,TN,In-Network
-P00762,Facility,Cardiology,AL,In-Network
-P00763,Professional,Dermatology,NC,In-Network
-P00764,Professional,Cardiology,TX,In-Network
-P00765,Professional,Cardiology,FL,In-Network
-P00766,Facility,Emergency Medicine,GA,In-Network
-P00767,Professional,Radiology,TN,In-Network
-P00768,Professional,OB/GYN,FL,In-Network
-P00769,Professional,Dermatology,VA,In-Network
-P00770,Professional,Dermatology,GA,In-Network
-P00771,Professional,Radiology,AL,In-Network
-P00772,Professional,Primary Care,NC,In-Network
-P00773,Professional,Dermatology,AL,In-Network
-P00774,Professional,OB/GYN,GA,In-Network
-P00775,Professional,Endocrinology,VA,Out-of-Network
-P00776,Professional,Endocrinology,VA,In-Network
-P00777,Professional,OB/GYN,AL,In-Network
-P00778,Professional,Emergency Medicine,SC,In-Network
-P00779,Professional,Cardiology,SC,In-Network
-P00780,Professional,Cardiology,SC,In-Network
-P00781,Professional,Radiology,NC,In-Network
-P00782,Professional,Endocrinology,SC,Out-of-Network
-P00783,Professional,Gastroenterology,TN,In-Network
-P00784,Professional,Dermatology,SC,In-Network
-P00785,Professional,Primary Care,VA,In-Network
-P00786,Professional,Endocrinology,GA,In-Network
-P00787,Facility,Behavioral Health,TX,In-Network
-P00788,Facility,Emergency Medicine,AL,In-Network
-P00789,Facility,Behavioral Health,AL,In-Network
-P00790,Facility,Cardiology,TX,Out-of-Network
-P00791,Professional,Emergency Medicine,VA,In-Network
-P00792,Facility,Endocrinology,TX,In-Network
-P00793,Professional,Emergency Medicine,NC,In-Network
-P00794,Facility,Gastroenterology,AL,In-Network
-P00795,Professional,Cardiology,SC,In-Network
-P00796,Facility,Orthopedics,GA,In-Network
-P00797,Facility,Dermatology,FL,In-Network
-P00798,Facility,Endocrinology,SC,In-Network
-P00799,Facility,Dermatology,GA,In-Network
-P00800,Professional,Gastroenterology,GA,In-Network
-P00801,Facility,Gastroenterology,AL,In-Network
-P00802,Professional,Endocrinology,AL,In-Network
-P00803,Professional,Orthopedics,TN,In-Network
-P00804,Professional,Dermatology,VA,In-Network
-P00805,Professional,Orthopedics,FL,Out-of-Network
-P00806,Professional,Emergency Medicine,TX,In-Network
-P00807,Professional,Dermatology,NC,In-Network
-P00808,Professional,Dermatology,FL,In-Network
-P00809,Professional,OB/GYN,TX,In-Network
-P00810,Professional,Dermatology,NC,In-Network
-P00811,Professional,Dermatology,SC,In-Network
-P00812,Professional,Primary Care,FL,In-Network
-P00813,Professional,Orthopedics,VA,Out-of-Network
-P00814,Facility,Primary Care,VA,In-Network
-P00815,Facility,Behavioral Health,NC,In-Network
-P00816,Professional,Cardiology,NC,In-Network
-P00817,Professional,Dermatology,TX,In-Network
-P00818,Professional,OB/GYN,VA,In-Network
-P00819,Facility,Behavioral Health,TN,In-Network
-P00820,Facility,Emergency Medicine,TX,In-Network
-P00821,Professional,OB/GYN,FL,In-Network
-P00822,Professional,Behavioral Health,TX,In-Network
-P00823,Facility,Emergency Medicine,TX,In-Network
-P00824,Professional,Orthopedics,TX,In-Network
-P00825,Professional,Endocrinology,AL,In-Network
-P00826,Facility,Orthopedics,AL,In-Network
-P00827,Facility,Behavioral Health,AL,In-Network
-P00828,Professional,Dermatology,FL,In-Network
-P00829,Facility,Primary Care,SC,In-Network
-P00830,Professional,Gastroenterology,FL,In-Network
-P00831,Professional,Gastroenterology,SC,In-Network
-P00832,Professional,Emergency Medicine,NC,Out-of-Network
-P00833,Professional,Cardiology,VA,In-Network
-P00834,Professional,Dermatology,NC,In-Network
-P00835,Professional,OB/GYN,FL,In-Network
-P00836,Facility,Endocrinology,VA,In-Network
-P00837,Facility,Behavioral Health,AL,In-Network
-P00838,Professional,Endocrinology,NC,In-Network
-P00839,Professional,Emergency Medicine,TX,In-Network
-P00840,Professional,OB/GYN,GA,In-Network
-P00841,Professional,Behavioral Health,VA,In-Network
-P00842,Professional,Gastroenterology,AL,Out-of-Network
-P00843,Professional,Gastroenterology,VA,In-Network
-P00844,Professional,Orthopedics,AL,In-Network
-P00845,Professional,Radiology,AL,In-Network
-P00846,Facility,OB/GYN,GA,In-Network
-P00847,Professional,Primary Care,NC,In-Network
-P00848,Professional,Radiology,SC,In-Network
-P00849,Facility,Behavioral Health,NC,In-Network
-P00850,Facility,Primary Care,TN,In-Network
-P00851,Professional,OB/GYN,TX,In-Network
-P00852,Professional,Primary Care,TX,Out-of-Network
-P00853,Professional,Radiology,TN,In-Network
-P00854,Professional,Primary Care,TN,Out-of-Network
-P00855,Professional,Radiology,GA,In-Network
-P00856,Professional,Cardiology,TX,In-Network
-P00857,Professional,Cardiology,TX,In-Network
-P00858,Professional,Gastroenterology,SC,In-Network
-P00859,Facility,Radiology,AL,In-Network
-P00860,Professional,Endocrinology,FL,In-Network
-P00861,Professional,Emergency Medicine,VA,In-Network
-P00862,Professional,Gastroenterology,TX,In-Network
-P00863,Professional,Gastroenterology,GA,In-Network
-P00864,Professional,Gastroenterology,GA,In-Network
-P00865,Facility,Dermatology,AL,In-Network
-P00866,Professional,Cardiology,TN,In-Network
-P00867,Professional,Cardiology,GA,In-Network
-P00868,Professional,Radiology,SC,Out-of-Network
-P00869,Facility,Orthopedics,GA,In-Network
-P00870,Facility,Gastroenterology,AL,In-Network
-P00871,Professional,Radiology,FL,In-Network
-P00872,Professional,Orthopedics,GA,In-Network
-P00873,Professional,Dermatology,NC,In-Network
-P00874,Professional,Orthopedics,NC,In-Network
-P00875,Professional,Primary Care,TN,Out-of-Network
-P00876,Professional,OB/GYN,TX,In-Network
-P00877,Facility,Dermatology,TX,In-Network
-P00878,Facility,Orthopedics,FL,In-Network
-P00879,Professional,Endocrinology,GA,In-Network
-P00880,Facility,Behavioral Health,AL,In-Network
-P00881,Professional,Radiology,GA,In-Network
-P00882,Professional,Cardiology,VA,In-Network
-P00883,Professional,Cardiology,AL,In-Network
-P00884,Facility,Orthopedics,GA,In-Network
-P00885,Professional,Behavioral Health,GA,In-Network
-P00886,Professional,OB/GYN,GA,In-Network
-P00887,Professional,OB/GYN,NC,In-Network
-P00888,Professional,Gastroenterology,SC,In-Network
-P00889,Professional,OB/GYN,FL,In-Network
-P00890,Facility,OB/GYN,TN,Out-of-Network
-P00891,Professional,Behavioral Health,TN,In-Network
-P00892,Professional,Gastroenterology,AL,In-Network
-P00893,Professional,Orthopedics,NC,In-Network
-P00894,Facility,Dermatology,GA,In-Network
-P00895,Professional,Behavioral Health,VA,In-Network
-P00896,Professional,OB/GYN,GA,In-Network
-P00897,Professional,OB/GYN,VA,In-Network
-P00898,Professional,Orthopedics,SC,In-Network
-P00899,Professional,Emergency Medicine,TX,In-Network
-P00900,Facility,OB/GYN,AL,Out-of-Network
-P00901,Professional,Orthopedics,TN,In-Network
-P00902,Professional,Gastroenterology,TX,In-Network
-P00903,Facility,Dermatology,VA,Out-of-Network
-P00904,Facility,Primary Care,VA,In-Network
-P00905,Professional,OB/GYN,VA,In-Network
-P00906,Facility,Gastroenterology,AL,In-Network
-P00907,Professional,Primary Care,SC,Out-of-Network
-P00908,Professional,Endocrinology,TN,In-Network
-P00909,Professional,Endocrinology,TX,In-Network
-P00910,Facility,Radiology,GA,Out-of-Network
-P00911,Professional,Dermatology,GA,In-Network
-P00912,Professional,Orthopedics,GA,In-Network
-P00913,Professional,Primary Care,FL,In-Network
-P00914,Professional,Primary Care,TX,In-Network
-P00915,Professional,Endocrinology,FL,In-Network
-P00916,Professional,Emergency Medicine,FL,In-Network
-P00917,Professional,Radiology,TX,Out-of-Network
-P00918,Professional,Primary Care,GA,In-Network
-P00919,Professional,Radiology,SC,Out-of-Network
-P00920,Professional,Dermatology,NC,In-Network
-P00921,Professional,Behavioral Health,SC,In-Network
-P00922,Professional,Radiology,SC,In-Network
-P00923,Professional,Gastroenterology,AL,In-Network
-P00924,Professional,Primary Care,TN,In-Network
-P00925,Professional,Primary Care,TX,In-Network
-P00926,Professional,Radiology,GA,In-Network
-P00927,Professional,Radiology,FL,In-Network
-P00928,Professional,Endocrinology,GA,In-Network
-P00929,Professional,Dermatology,AL,In-Network
-P00930,Professional,OB/GYN,TX,In-Network
-P00931,Facility,Cardiology,TX,In-Network
-P00932,Facility,Primary Care,VA,In-Network
-P00933,Facility,Emergency Medicine,TN,In-Network
-P00934,Facility,Gastroenterology,TN,In-Network
-P00935,Professional,Endocrinology,TX,In-Network
-P00936,Professional,Emergency Medicine,AL,In-Network
-P00937,Professional,Orthopedics,TN,In-Network
-P00938,Professional,Endocrinology,FL,In-Network
-P00939,Professional,Gastroenterology,VA,In-Network
-P00940,Professional,Radiology,GA,Out-of-Network
-P00941,Facility,Primary Care,VA,In-Network
-P00942,Facility,Emergency Medicine,NC,In-Network
-P00943,Professional,Emergency Medicine,GA,In-Network
-P00944,Professional,Behavioral Health,AL,In-Network
-P00945,Professional,Primary Care,VA,In-Network
-P00946,Facility,Gastroenterology,GA,In-Network
-P00947,Facility,Endocrinology,TX,In-Network
-P00948,Professional,Radiology,AL,In-Network
-P00949,Professional,Cardiology,NC,In-Network
-P00950,Professional,Gastroenterology,TN,Out-of-Network
-P00951,Professional,Cardiology,SC,In-Network
-P00952,Facility,Dermatology,TN,In-Network
-P00953,Professional,Primary Care,SC,In-Network
-P00954,Professional,Radiology,GA,In-Network
-P00955,Professional,Gastroenterology,TX,In-Network
-P00956,Professional,Endocrinology,NC,In-Network
-P00957,Professional,Behavioral Health,TX,Out-of-Network
-P00958,Professional,Behavioral Health,NC,Out-of-Network
-P00959,Facility,Endocrinology,AL,In-Network
-P00960,Professional,Dermatology,NC,In-Network
-P00961,Professional,Behavioral Health,TN,Out-of-Network
-P00962,Facility,Primary Care,GA,Out-of-Network
-P00963,Professional,Behavioral Health,TN,In-Network
-P00964,Facility,Emergency Medicine,TX,In-Network
-P00965,Professional,Behavioral Health,TN,In-Network
-P00966,Professional,Endocrinology,GA,In-Network
-P00967,Facility,Behavioral Health,FL,In-Network
-P00968,Professional,Cardiology,TN,In-Network
-P00969,Professional,Primary Care,TX,In-Network
-P00970,Professional,Behavioral Health,GA,In-Network
-P00971,Professional,Primary Care,VA,In-Network
-P00972,Facility,Gastroenterology,TX,In-Network
-P00973,Professional,Endocrinology,AL,In-Network
-P00974,Facility,Behavioral Health,NC,In-Network
-P00975,Facility,Behavioral Health,GA,In-Network
-P00976,Facility,Radiology,NC,Out-of-Network
-P00977,Facility,Primary Care,GA,Out-of-Network
-P00978,Professional,Primary Care,FL,In-Network
-P00979,Professional,Radiology,VA,In-Network
-P00980,Professional,Dermatology,FL,In-Network
-P00981,Facility,Dermatology,GA,Out-of-Network
-P00982,Facility,Gastroenterology,NC,In-Network
-P00983,Professional,Orthopedics,AL,In-Network
-P00984,Professional,Gastroenterology,NC,In-Network
-P00985,Professional,Gastroenterology,TX,In-Network
-P00986,Professional,OB/GYN,GA,In-Network
-P00987,Professional,Gastroenterology,NC,Out-of-Network
-P00988,Professional,Radiology,GA,In-Network
-P00989,Professional,Gastroenterology,FL,In-Network
-P00990,Professional,Radiology,NC,In-Network
-P00991,Facility,Orthopedics,NC,Out-of-Network
-P00992,Facility,OB/GYN,FL,In-Network
-P00993,Professional,Dermatology,VA,In-Network
-P00994,Professional,Primary Care,AL,In-Network
-P00995,Professional,Cardiology,TX,In-Network
-P00996,Professional,Emergency Medicine,GA,In-Network
-P00997,Facility,Primary Care,GA,In-Network
-P00998,Professional,Cardiology,GA,In-Network
-P00999,Facility,Dermatology,SC,In-Network
-P01000,Professional,Dermatology,GA,In-Network
-P01001,Professional,Behavioral Health,AL,In-Network
-P01002,Professional,Behavioral Health,TN,In-Network
-P01003,Facility,OB/GYN,FL,In-Network
-P01004,Professional,Emergency Medicine,SC,In-Network
-P01005,Professional,Radiology,VA,In-Network
-P01006,Professional,Dermatology,SC,In-Network
-P01007,Professional,OB/GYN,TX,Out-of-Network
-P01008,Professional,Cardiology,FL,In-Network
-P01009,Professional,Emergency Medicine,VA,In-Network
-P01010,Professional,Cardiology,GA,In-Network
-P01011,Professional,Radiology,SC,Out-of-Network
-P01012,Professional,Dermatology,TN,In-Network
-P01013,Facility,Radiology,TN,In-Network
-P01014,Facility,Dermatology,FL,In-Network
-P01015,Professional,Orthopedics,VA,In-Network
-P01016,Professional,Orthopedics,NC,In-Network
-P01017,Professional,Behavioral Health,SC,In-Network
-P01018,Facility,Emergency Medicine,AL,In-Network
-P01019,Professional,Emergency Medicine,TX,In-Network
-P01020,Professional,Orthopedics,SC,In-Network
-P01021,Professional,Cardiology,VA,In-Network
-P01022,Professional,Dermatology,TN,In-Network
-P01023,Professional,Orthopedics,AL,In-Network
-P01024,Professional,Emergency Medicine,GA,In-Network
-P01025,Professional,Orthopedics,SC,In-Network
-P01026,Facility,Radiology,NC,In-Network
-P01027,Professional,Emergency Medicine,SC,In-Network
-P01028,Professional,Radiology,SC,In-Network
-P01029,Professional,Primary Care,TX,Out-of-Network
-P01030,Professional,Emergency Medicine,VA,In-Network
-P01031,Professional,Endocrinology,GA,In-Network
-P01032,Professional,OB/GYN,FL,In-Network
-P01033,Professional,Endocrinology,AL,In-Network
-P01034,Facility,Endocrinology,TN,Out-of-Network
-P01035,Professional,Orthopedics,FL,In-Network
-P01036,Professional,Primary Care,NC,In-Network
-P01037,Professional,Orthopedics,TN,In-Network
-P01038,Professional,Gastroenterology,VA,In-Network
-P01039,Professional,Dermatology,GA,Out-of-Network
-P01040,Professional,Gastroenterology,NC,In-Network
-P01041,Professional,Primary Care,TX,In-Network
-P01042,Professional,Cardiology,AL,In-Network
-P01043,Professional,Primary Care,GA,In-Network
-P01044,Professional,Radiology,SC,In-Network
-P01045,Professional,OB/GYN,TX,In-Network
-P01046,Facility,Emergency Medicine,TN,In-Network
-P01047,Facility,Primary Care,TX,In-Network
-P01048,Professional,Endocrinology,AL,In-Network
-P01049,Facility,Radiology,TN,In-Network
-P01050,Facility,OB/GYN,TX,In-Network
-P01051,Professional,Endocrinology,FL,Out-of-Network
-P01052,Professional,Cardiology,AL,In-Network
-P01053,Professional,Cardiology,FL,In-Network
-P01054,Professional,Endocrinology,NC,In-Network
-P01055,Facility,Radiology,VA,In-Network
-P01056,Professional,Behavioral Health,AL,In-Network
-P01057,Professional,Gastroenterology,AL,In-Network
-P01058,Professional,Radiology,VA,In-Network
-P01059,Professional,Cardiology,TX,In-Network
-P01060,Professional,Orthopedics,TN,In-Network
-P01061,Professional,Gastroenterology,GA,In-Network
-P01062,Professional,Behavioral Health,TN,In-Network
-P01063,Facility,Gastroenterology,VA,In-Network
-P01064,Professional,Primary Care,FL,In-Network
-P01065,Professional,Behavioral Health,VA,In-Network
-P01066,Professional,Behavioral Health,AL,In-Network
-P01067,Professional,Primary Care,GA,In-Network
-P01068,Professional,Orthopedics,TX,In-Network
-P01069,Professional,Primary Care,AL,In-Network
-P01070,Professional,Behavioral Health,AL,In-Network
-P01071,Professional,OB/GYN,VA,In-Network
-P01072,Professional,Behavioral Health,FL,In-Network
-P01073,Facility,Behavioral Health,VA,In-Network
-P01074,Professional,Cardiology,TX,In-Network
-P01075,Professional,Primary Care,FL,In-Network
-P01076,Professional,Endocrinology,VA,In-Network
-P01077,Professional,OB/GYN,TX,Out-of-Network
-P01078,Professional,Primary Care,VA,In-Network
-P01079,Facility,Emergency Medicine,FL,In-Network
-P01080,Facility,Orthopedics,VA,In-Network
-P01081,Facility,OB/GYN,NC,In-Network
-P01082,Professional,Cardiology,TN,In-Network
-P01083,Professional,Cardiology,TN,In-Network
-P01084,Professional,Emergency Medicine,SC,In-Network
-P01085,Professional,Radiology,TX,In-Network
-P01086,Facility,Primary Care,VA,In-Network
-P01087,Professional,OB/GYN,TX,Out-of-Network
-P01088,Professional,Emergency Medicine,GA,In-Network
-P01089,Professional,Orthopedics,GA,In-Network
-P01090,Professional,Emergency Medicine,TN,In-Network
-P01091,Professional,Behavioral Health,VA,Out-of-Network
-P01092,Facility,Radiology,TN,In-Network
-P01093,Professional,Radiology,NC,In-Network
-P01094,Facility,Primary Care,TX,In-Network
-P01095,Professional,Endocrinology,TX,In-Network
-P01096,Professional,Cardiology,TN,In-Network
-P01097,Professional,Radiology,TX,In-Network
-P01098,Professional,Radiology,GA,In-Network
-P01099,Professional,Orthopedics,TX,In-Network
-P01100,Professional,Endocrinology,GA,In-Network
-P01101,Professional,Primary Care,VA,In-Network
-P01102,Facility,Endocrinology,FL,In-Network
-P01103,Professional,Dermatology,TX,In-Network
-P01104,Professional,Radiology,FL,Out-of-Network
-P01105,Professional,Endocrinology,SC,In-Network
-P01106,Professional,Dermatology,VA,In-Network
-P01107,Professional,Orthopedics,SC,In-Network
-P01108,Professional,Orthopedics,TN,Out-of-Network
-P01109,Facility,Dermatology,TX,Out-of-Network
-P01110,Facility,Cardiology,SC,In-Network
-P01111,Facility,Primary Care,AL,In-Network
-P01112,Professional,Dermatology,AL,Out-of-Network
-P01113,Professional,Gastroenterology,NC,In-Network
-P01114,Professional,Primary Care,AL,In-Network
-P01115,Professional,Dermatology,AL,Out-of-Network
-P01116,Professional,Endocrinology,VA,In-Network
-P01117,Professional,Gastroenterology,AL,In-Network
-P01118,Professional,Radiology,AL,Out-of-Network
-P01119,Professional,Cardiology,NC,In-Network
-P01120,Professional,Emergency Medicine,AL,In-Network
-P01121,Professional,Radiology,FL,In-Network
-P01122,Professional,Dermatology,SC,Out-of-Network
-P01123,Facility,Orthopedics,VA,In-Network
-P01124,Professional,Behavioral Health,NC,In-Network
-P01125,Facility,Primary Care,GA,In-Network
-P01126,Professional,Orthopedics,TN,In-Network
-P01127,Professional,OB/GYN,AL,Out-of-Network
-P01128,Professional,Gastroenterology,AL,In-Network
-P01129,Professional,Dermatology,SC,In-Network
-P01130,Professional,Behavioral Health,GA,In-Network
-P01131,Professional,OB/GYN,TN,In-Network
-P01132,Facility,Cardiology,VA,In-Network
-P01133,Professional,Emergency Medicine,NC,In-Network
-P01134,Professional,Behavioral Health,TN,In-Network
-P01135,Professional,OB/GYN,AL,In-Network
-P01136,Facility,Primary Care,GA,In-Network
-P01137,Professional,Endocrinology,VA,In-Network
-P01138,Professional,Orthopedics,FL,In-Network
-P01139,Professional,Primary Care,FL,In-Network
-P01140,Professional,Endocrinology,TX,In-Network
-P01141,Facility,Gastroenterology,AL,In-Network
-P01142,Facility,Behavioral Health,GA,In-Network
-P01143,Facility,Primary Care,GA,In-Network
-P01144,Professional,OB/GYN,SC,In-Network
-P01145,Professional,Dermatology,FL,In-Network
-P01146,Facility,Orthopedics,VA,In-Network
-P01147,Facility,OB/GYN,NC,In-Network
-P01148,Professional,Gastroenterology,FL,In-Network
-P01149,Professional,Primary Care,TX,In-Network
-P01150,Professional,Cardiology,TX,Out-of-Network
-P01151,Professional,Radiology,GA,In-Network
-P01152,Professional,Orthopedics,GA,In-Network
-P01153,Professional,Gastroenterology,TX,In-Network
-P01154,Professional,OB/GYN,GA,Out-of-Network
-P01155,Professional,Dermatology,AL,Out-of-Network
-P01156,Facility,OB/GYN,TN,In-Network
-P01157,Professional,Primary Care,VA,In-Network
-P01158,Professional,Dermatology,TX,In-Network
-P01159,Professional,Endocrinology,TX,In-Network
-P01160,Professional,Emergency Medicine,GA,In-Network
-P01161,Professional,Primary Care,TN,In-Network
-P01162,Facility,Orthopedics,VA,In-Network
-P01163,Professional,Dermatology,SC,In-Network
-P01164,Professional,Radiology,AL,In-Network
-P01165,Professional,Radiology,TX,Out-of-Network
-P01166,Professional,Orthopedics,VA,In-Network
-P01167,Professional,Dermatology,SC,In-Network
-P01168,Professional,OB/GYN,TN,In-Network
-P01169,Professional,Cardiology,TX,In-Network
-P01170,Facility,Emergency Medicine,TN,In-Network
-P01171,Professional,Emergency Medicine,FL,Out-of-Network
-P01172,Professional,Cardiology,TX,Out-of-Network
-P01173,Professional,Behavioral Health,SC,In-Network
-P01174,Professional,Radiology,VA,In-Network
-P01175,Professional,Orthopedics,TN,In-Network
-P01176,Facility,OB/GYN,FL,In-Network
-P01177,Professional,Radiology,SC,In-Network
-P01178,Professional,Orthopedics,GA,In-Network
-P01179,Professional,Emergency Medicine,SC,In-Network
-P01180,Professional,Radiology,NC,In-Network
-P01181,Professional,Primary Care,TN,Out-of-Network
-P01182,Professional,Orthopedics,SC,Out-of-Network
-P01183,Professional,Gastroenterology,FL,In-Network
-P01184,Professional,OB/GYN,VA,In-Network
-P01185,Professional,Emergency Medicine,AL,In-Network
-P01186,Professional,Primary Care,TX,Out-of-Network
-P01187,Professional,Dermatology,FL,In-Network
-P01188,Professional,Gastroenterology,NC,In-Network
-P01189,Professional,Orthopedics,NC,In-Network
-P01190,Professional,Cardiology,VA,Out-of-Network
-P01191,Professional,Primary Care,NC,In-Network
-P01192,Professional,Cardiology,GA,Out-of-Network
-P01193,Professional,Primary Care,VA,In-Network
-P01194,Facility,Behavioral Health,AL,In-Network
-P01195,Facility,OB/GYN,TN,Out-of-Network
-P01196,Professional,Orthopedics,SC,In-Network
-P01197,Professional,Gastroenterology,AL,In-Network
-P01198,Professional,Gastroenterology,TX,In-Network
-P01199,Professional,Primary Care,TN,In-Network
-P01200,Professional,Behavioral Health,TN,In-Network
-P01201,Professional,Behavioral Health,SC,Out-of-Network
-P01202,Professional,Cardiology,SC,In-Network
-P01203,Professional,Endocrinology,GA,In-Network
-P01204,Facility,Dermatology,SC,In-Network
-P01205,Professional,Behavioral Health,TX,In-Network
-P01206,Facility,Behavioral Health,AL,In-Network
-P01207,Professional,Cardiology,GA,In-Network
-P01208,Facility,Dermatology,TX,In-Network
-P01209,Professional,Dermatology,VA,In-Network
-P01210,Facility,Gastroenterology,AL,In-Network
-P01211,Professional,Cardiology,FL,In-Network
-P01212,Professional,Emergency Medicine,AL,In-Network
-P01213,Professional,Gastroenterology,AL,Out-of-Network
-P01214,Professional,Cardiology,TX,In-Network
-P01215,Professional,Primary Care,GA,In-Network
-P01216,Professional,Behavioral Health,FL,Out-of-Network
-P01217,Facility,Primary Care,TX,In-Network
-P01218,Professional,Endocrinology,NC,In-Network
-P01219,Professional,Endocrinology,GA,In-Network
-P01220,Professional,Behavioral Health,FL,In-Network
-P01221,Professional,Dermatology,NC,Out-of-Network
-P01222,Facility,Endocrinology,FL,In-Network
-P01223,Professional,Behavioral Health,AL,In-Network
-P01224,Professional,Gastroenterology,TX,In-Network
-P01225,Professional,Dermatology,TX,In-Network
-P01226,Professional,Emergency Medicine,FL,In-Network
-P01227,Professional,Dermatology,FL,Out-of-Network
-P01228,Professional,OB/GYN,TX,Out-of-Network
-P01229,Professional,Orthopedics,SC,In-Network
-P01230,Facility,Cardiology,VA,In-Network
-P01231,Facility,Primary Care,SC,In-Network
-P01232,Professional,Dermatology,TN,In-Network
-P01233,Professional,Radiology,VA,In-Network
-P01234,Facility,OB/GYN,VA,Out-of-Network
-P01235,Professional,Orthopedics,AL,In-Network
-P01236,Professional,Emergency Medicine,FL,In-Network
-P01237,Professional,Endocrinology,TN,Out-of-Network
-P01238,Professional,Emergency Medicine,VA,In-Network
-P01239,Professional,Dermatology,SC,In-Network
-P01240,Facility,Behavioral Health,TX,In-Network
-P01241,Professional,Radiology,NC,In-Network
-P01242,Professional,Gastroenterology,VA,In-Network
-P01243,Professional,Gastroenterology,NC,Out-of-Network
-P01244,Facility,OB/GYN,SC,In-Network
-P01245,Professional,Radiology,SC,In-Network
-P01246,Professional,Behavioral Health,GA,In-Network
-P01247,Professional,Dermatology,GA,In-Network
-P01248,Professional,Endocrinology,VA,In-Network
-P01249,Professional,Cardiology,TX,In-Network
-P01250,Professional,Radiology,FL,In-Network
-P01251,Professional,Orthopedics,NC,In-Network
-P01252,Professional,Behavioral Health,VA,Out-of-Network
-P01253,Professional,Primary Care,SC,In-Network
-P01254,Professional,Dermatology,FL,In-Network
-P01255,Facility,Orthopedics,SC,In-Network
-P01256,Professional,Primary Care,TN,In-Network
-P01257,Professional,Emergency Medicine,TX,In-Network
-P01258,Professional,Radiology,AL,In-Network
-P01259,Facility,Gastroenterology,GA,In-Network
-P01260,Professional,OB/GYN,TX,In-Network
-P01261,Professional,Endocrinology,GA,In-Network
-P01262,Professional,Cardiology,TX,In-Network
-P01263,Professional,Radiology,TX,Out-of-Network
-P01264,Professional,OB/GYN,VA,In-Network
-P01265,Professional,Endocrinology,VA,In-Network
-P01266,Professional,Behavioral Health,GA,In-Network
-P01267,Professional,Dermatology,TN,In-Network
-P01268,Professional,OB/GYN,TX,In-Network
-P01269,Professional,Endocrinology,NC,In-Network
-P01270,Professional,Emergency Medicine,TX,In-Network
-P01271,Professional,Cardiology,FL,In-Network
-P01272,Facility,Primary Care,VA,In-Network
-P01273,Professional,Primary Care,VA,In-Network
-P01274,Professional,Dermatology,NC,In-Network
-P01275,Professional,Emergency Medicine,FL,In-Network
-P01276,Professional,Dermatology,GA,In-Network
-P01277,Professional,Endocrinology,GA,In-Network
-P01278,Professional,OB/GYN,GA,In-Network
-P01279,Facility,Cardiology,VA,In-Network
-P01280,Facility,Cardiology,AL,In-Network
-P01281,Professional,Gastroenterology,FL,In-Network
-P01282,Professional,Primary Care,GA,In-Network
-P01283,Professional,Dermatology,NC,Out-of-Network
-P01284,Professional,Dermatology,VA,In-Network
-P01285,Professional,Primary Care,SC,In-Network
-P01286,Facility,Behavioral Health,GA,In-Network
-P01287,Professional,Dermatology,SC,In-Network
-P01288,Facility,Emergency Medicine,TX,In-Network
-P01289,Professional,Primary Care,FL,In-Network
-P01290,Professional,Orthopedics,FL,In-Network
-P01291,Professional,Gastroenterology,FL,In-Network
-P01292,Professional,OB/GYN,FL,In-Network
-P01293,Professional,Behavioral Health,VA,In-Network
-P01294,Facility,Cardiology,TN,In-Network
-P01295,Facility,OB/GYN,VA,In-Network
-P01296,Professional,Orthopedics,GA,In-Network
-P01297,Professional,Orthopedics,TX,In-Network
-P01298,Professional,Cardiology,TX,In-Network
-P01299,Professional,Dermatology,AL,In-Network
-P01300,Professional,Orthopedics,SC,In-Network
-P01301,Professional,Behavioral Health,FL,Out-of-Network
-P01302,Facility,Dermatology,TX,In-Network
-P01303,Professional,OB/GYN,GA,In-Network
-P01304,Professional,Gastroenterology,NC,Out-of-Network
-P01305,Facility,Gastroenterology,TX,In-Network
-P01306,Professional,Orthopedics,AL,In-Network
-P01307,Professional,Orthopedics,TN,In-Network
-P01308,Professional,Endocrinology,FL,In-Network
-P01309,Facility,Dermatology,NC,Out-of-Network
-P01310,Professional,Gastroenterology,AL,In-Network
-P01311,Facility,Radiology,SC,Out-of-Network
-P01312,Professional,Cardiology,NC,In-Network
-P01313,Facility,Gastroenterology,FL,In-Network
-P01314,Professional,Primary Care,FL,In-Network
-P01315,Professional,Emergency Medicine,TX,In-Network
-P01316,Facility,Radiology,SC,In-Network
-P01317,Professional,Dermatology,FL,In-Network
-P01318,Professional,Radiology,VA,In-Network
-P01319,Facility,Radiology,TN,In-Network
-P01320,Facility,Endocrinology,GA,In-Network
-P01321,Professional,Gastroenterology,NC,In-Network
-P01322,Professional,Orthopedics,FL,In-Network
-P01323,Professional,OB/GYN,TX,In-Network
-P01324,Professional,Endocrinology,VA,Out-of-Network
-P01325,Facility,Behavioral Health,VA,In-Network
-P01326,Professional,Cardiology,FL,In-Network
-P01327,Professional,Emergency Medicine,TN,In-Network
-P01328,Professional,Emergency Medicine,FL,In-Network
-P01329,Professional,Behavioral Health,TN,In-Network
-P01330,Professional,Primary Care,FL,In-Network
-P01331,Professional,Cardiology,VA,In-Network
-P01332,Professional,Orthopedics,SC,Out-of-Network
-P01333,Professional,Orthopedics,GA,Out-of-Network
-P01334,Facility,Behavioral Health,TX,In-Network
-P01335,Facility,Radiology,AL,In-Network
-P01336,Professional,Orthopedics,SC,In-Network
-P01337,Professional,Endocrinology,TN,In-Network
-P01338,Facility,OB/GYN,FL,In-Network
-P01339,Professional,Radiology,NC,Out-of-Network
-P01340,Professional,Radiology,VA,In-Network
-P01341,Facility,Primary Care,TN,In-Network
-P01342,Professional,OB/GYN,GA,In-Network
-P01343,Professional,Emergency Medicine,GA,In-Network
-P01344,Professional,Gastroenterology,NC,In-Network
-P01345,Professional,Endocrinology,FL,In-Network
-P01346,Professional,Behavioral Health,FL,In-Network
-P01347,Professional,Primary Care,FL,In-Network
-P01348,Professional,Radiology,FL,In-Network
-P01349,Professional,OB/GYN,AL,In-Network
-P01350,Professional,OB/GYN,AL,In-Network
-P01351,Professional,OB/GYN,FL,In-Network
-P01352,Professional,Primary Care,SC,In-Network
-P01353,Professional,Gastroenterology,NC,In-Network
-P01354,Professional,Gastroenterology,AL,In-Network
-P01355,Professional,Gastroenterology,SC,In-Network
-P01356,Professional,OB/GYN,AL,Out-of-Network
-P01357,Facility,Gastroenterology,GA,In-Network
-P01358,Professional,Behavioral Health,VA,In-Network
-P01359,Professional,Behavioral Health,NC,In-Network
-P01360,Professional,Primary Care,TX,In-Network
-P01361,Professional,Cardiology,TX,In-Network
-P01362,Professional,Gastroenterology,TN,Out-of-Network
-P01363,Professional,Radiology,FL,In-Network
-P01364,Professional,Cardiology,GA,In-Network
-P01365,Professional,Gastroenterology,VA,In-Network
-P01366,Professional,OB/GYN,TN,In-Network
-P01367,Facility,Endocrinology,AL,In-Network
-P01368,Professional,Endocrinology,TX,In-Network
-P01369,Facility,Dermatology,VA,In-Network
-P01370,Professional,Emergency Medicine,TN,Out-of-Network
-P01371,Professional,Primary Care,AL,Out-of-Network
-P01372,Professional,OB/GYN,TX,In-Network
-P01373,Professional,Behavioral Health,TX,In-Network
-P01374,Professional,Dermatology,NC,In-Network
-P01375,Facility,Dermatology,TN,In-Network
-P01376,Facility,Primary Care,VA,In-Network
-P01377,Professional,Primary Care,TX,In-Network
-P01378,Professional,Emergency Medicine,GA,In-Network
-P01379,Professional,Cardiology,VA,In-Network
-P01380,Professional,Endocrinology,TX,Out-of-Network
-P01381,Facility,Radiology,SC,In-Network
-P01382,Facility,Behavioral Health,SC,In-Network
-P01383,Professional,Endocrinology,SC,In-Network
-P01384,Facility,Emergency Medicine,NC,In-Network
-P01385,Facility,Emergency Medicine,VA,In-Network
-P01386,Facility,Primary Care,TN,In-Network
-P01387,Professional,Primary Care,TX,In-Network
-P01388,Professional,Dermatology,FL,In-Network
-P01389,Professional,Emergency Medicine,FL,In-Network
-P01390,Professional,Behavioral Health,VA,Out-of-Network
-P01391,Facility,Primary Care,VA,Out-of-Network
-P01392,Professional,Emergency Medicine,TX,In-Network
-P01393,Professional,Primary Care,TN,In-Network
-P01394,Professional,Cardiology,AL,In-Network
-P01395,Professional,Gastroenterology,NC,In-Network
-P01396,Facility,Emergency Medicine,GA,Out-of-Network
-P01397,Facility,Primary Care,AL,In-Network
-P01398,Professional,Dermatology,TN,In-Network
-P01399,Facility,Orthopedics,SC,In-Network
-P01400,Professional,Endocrinology,NC,In-Network
-P01401,Facility,Radiology,SC,Out-of-Network
-P01402,Facility,OB/GYN,VA,In-Network
-P01403,Professional,Behavioral Health,TX,In-Network
-P01404,Facility,Cardiology,GA,In-Network
-P01405,Facility,Cardiology,TN,In-Network
-P01406,Professional,OB/GYN,VA,Out-of-Network
-P01407,Professional,OB/GYN,TX,In-Network
-P01408,Professional,Gastroenterology,GA,In-Network
-P01409,Professional,Emergency Medicine,TX,In-Network
-P01410,Professional,Endocrinology,FL,In-Network
-P01411,Facility,Endocrinology,AL,In-Network
-P01412,Professional,Cardiology,FL,In-Network
-P01413,Professional,Gastroenterology,NC,Out-of-Network
-P01414,Professional,Behavioral Health,GA,In-Network
-P01415,Facility,Emergency Medicine,FL,In-Network
-P01416,Professional,Emergency Medicine,SC,Out-of-Network
-P01417,Facility,Behavioral Health,TX,In-Network
-P01418,Professional,Behavioral Health,NC,In-Network
-P01419,Professional,Dermatology,FL,In-Network
-P01420,Professional,Radiology,VA,In-Network
-P01421,Facility,Dermatology,SC,Out-of-Network
-P01422,Professional,OB/GYN,NC,In-Network
-P01423,Professional,Emergency Medicine,AL,In-Network
-P01424,Facility,Cardiology,VA,Out-of-Network
-P01425,Professional,Orthopedics,GA,In-Network
-P01426,Professional,Radiology,FL,In-Network
-P01427,Professional,OB/GYN,FL,Out-of-Network
-P01428,Professional,Radiology,TN,In-Network
-P01429,Professional,Cardiology,SC,In-Network
-P01430,Professional,Gastroenterology,VA,In-Network
-P01431,Professional,Dermatology,TN,In-Network
-P01432,Professional,OB/GYN,GA,In-Network
-P01433,Professional,Radiology,SC,In-Network
-P01434,Facility,Endocrinology,VA,In-Network
-P01435,Professional,Emergency Medicine,GA,In-Network
-P01436,Facility,Orthopedics,AL,In-Network
-P01437,Professional,Orthopedics,AL,In-Network
-P01438,Professional,Orthopedics,VA,In-Network
-P01439,Professional,Behavioral Health,SC,In-Network
-P01440,Professional,OB/GYN,TN,In-Network
-P01441,Professional,Orthopedics,FL,In-Network
-P01442,Professional,Orthopedics,AL,In-Network
-P01443,Professional,Radiology,NC,In-Network
-P01444,Professional,Radiology,SC,In-Network
-P01445,Professional,Gastroenterology,GA,Out-of-Network
-P01446,Professional,Emergency Medicine,TN,In-Network
-P01447,Professional,Endocrinology,NC,In-Network
-P01448,Professional,Primary Care,TN,In-Network
-P01449,Professional,Dermatology,TX,Out-of-Network
-P01450,Professional,OB/GYN,FL,In-Network
-P01451,Professional,Emergency Medicine,NC,In-Network
-P01452,Professional,Orthopedics,TN,In-Network
-P01453,Professional,Radiology,NC,In-Network
-P01454,Facility,Dermatology,AL,In-Network
-P01455,Professional,Gastroenterology,TX,In-Network
-P01456,Professional,Cardiology,SC,In-Network
-P01457,Professional,Cardiology,VA,In-Network
-P01458,Professional,Behavioral Health,TX,In-Network
-P01459,Professional,Orthopedics,FL,In-Network
-P01460,Professional,Behavioral Health,TN,In-Network
-P01461,Professional,Orthopedics,VA,In-Network
-P01462,Professional,Endocrinology,TN,In-Network
-P01463,Professional,Gastroenterology,AL,Out-of-Network
-P01464,Professional,Behavioral Health,AL,In-Network
-P01465,Professional,Emergency Medicine,TN,Out-of-Network
-P01466,Professional,Primary Care,VA,In-Network
-P01467,Facility,OB/GYN,VA,In-Network
-P01468,Professional,Emergency Medicine,GA,In-Network
-P01469,Professional,OB/GYN,SC,In-Network
-P01470,Facility,Primary Care,VA,In-Network
-P01471,Professional,Behavioral Health,SC,In-Network
-P01472,Professional,Orthopedics,FL,In-Network
-P01473,Professional,Endocrinology,TX,In-Network
-P01474,Facility,Orthopedics,SC,In-Network
-P01475,Professional,Dermatology,FL,In-Network
-P01476,Professional,Cardiology,VA,In-Network
-P01477,Professional,Cardiology,VA,In-Network
-P01478,Professional,Emergency Medicine,GA,In-Network
-P01479,Professional,Endocrinology,TN,In-Network
-P01480,Professional,Endocrinology,TX,Out-of-Network
-P01481,Professional,Radiology,TN,In-Network
-P01482,Professional,Emergency Medicine,VA,In-Network
-P01483,Professional,Cardiology,GA,In-Network
-P01484,Professional,Dermatology,GA,In-Network
-P01485,Professional,Orthopedics,SC,In-Network
-P01486,Professional,Cardiology,TN,In-Network
-P01487,Professional,Dermatology,TN,In-Network
-P01488,Professional,Orthopedics,NC,Out-of-Network
-P01489,Facility,Orthopedics,TX,In-Network
-P01490,Professional,Radiology,TX,In-Network
-P01491,Professional,Orthopedics,FL,In-Network
-P01492,Professional,Emergency Medicine,AL,In-Network
-P01493,Professional,Radiology,FL,In-Network
-P01494,Facility,Dermatology,AL,Out-of-Network
-P01495,Facility,Dermatology,GA,In-Network
-P01496,Professional,Orthopedics,AL,In-Network
-P01497,Professional,Emergency Medicine,TX,In-Network
-P01498,Professional,Behavioral Health,GA,In-Network
-P01499,Professional,Emergency Medicine,TN,In-Network
-P01500,Professional,Gastroenterology,VA,In-Network
-P01501,Professional,Endocrinology,TX,In-Network
-P01502,Professional,Orthopedics,VA,Out-of-Network
-P01503,Professional,Emergency Medicine,SC,In-Network
-P01504,Professional,Orthopedics,GA,In-Network
-P01505,Professional,Orthopedics,SC,In-Network
-P01506,Professional,Endocrinology,NC,In-Network
-P01507,Professional,Gastroenterology,VA,In-Network
-P01508,Professional,Primary Care,AL,In-Network
-P01509,Professional,Cardiology,VA,In-Network
-P01510,Facility,Orthopedics,AL,Out-of-Network
-P01511,Professional,Behavioral Health,NC,In-Network
-P01512,Professional,Endocrinology,TX,In-Network
-P01513,Professional,OB/GYN,TX,In-Network
-P01514,Professional,Emergency Medicine,SC,In-Network
-P01515,Professional,Dermatology,FL,Out-of-Network
-P01516,Professional,Gastroenterology,AL,In-Network
-P01517,Professional,OB/GYN,TX,In-Network
-P01518,Professional,Emergency Medicine,FL,In-Network
-P01519,Professional,Behavioral Health,AL,In-Network
-P01520,Facility,Endocrinology,NC,In-Network
-P01521,Professional,Dermatology,NC,In-Network
-P01522,Facility,Behavioral Health,NC,In-Network
-P01523,Professional,Primary Care,VA,In-Network
-P01524,Professional,Cardiology,SC,Out-of-Network
-P01525,Professional,Cardiology,TN,In-Network
-P01526,Facility,Emergency Medicine,TX,Out-of-Network
-P01527,Professional,Orthopedics,VA,In-Network
-P01528,Facility,Endocrinology,NC,In-Network
-P01529,Professional,OB/GYN,FL,In-Network
-P01530,Professional,Dermatology,SC,In-Network
-P01531,Professional,Orthopedics,FL,In-Network
-P01532,Professional,Emergency Medicine,GA,In-Network
-P01533,Professional,Dermatology,GA,In-Network
-P01534,Facility,Emergency Medicine,TN,In-Network
-P01535,Professional,OB/GYN,FL,In-Network
-P01536,Professional,Gastroenterology,AL,In-Network
-P01537,Professional,Primary Care,GA,In-Network
-P01538,Professional,Behavioral Health,TX,In-Network
-P01539,Facility,OB/GYN,TX,In-Network
-P01540,Professional,Primary Care,TX,Out-of-Network
-P01541,Professional,Behavioral Health,SC,In-Network
-P01542,Professional,Orthopedics,VA,In-Network
-P01543,Professional,Gastroenterology,TX,Out-of-Network
-P01544,Professional,Radiology,GA,In-Network
-P01545,Facility,Gastroenterology,VA,In-Network
-P01546,Facility,Emergency Medicine,SC,In-Network
-P01547,Professional,Endocrinology,TN,In-Network
-P01548,Professional,Endocrinology,GA,In-Network
-P01549,Professional,Radiology,TX,In-Network
-P01550,Professional,Behavioral Health,NC,In-Network
-P01551,Professional,Emergency Medicine,AL,In-Network
-P01552,Professional,Dermatology,AL,In-Network
-P01553,Professional,Endocrinology,TX,Out-of-Network
-P01554,Facility,Primary Care,TN,In-Network
-P01555,Professional,Emergency Medicine,FL,Out-of-Network
-P01556,Professional,Endocrinology,FL,In-Network
-P01557,Professional,Dermatology,TX,Out-of-Network
-P01558,Professional,Dermatology,TN,Out-of-Network
-P01559,Professional,Cardiology,GA,In-Network
-P01560,Professional,Cardiology,VA,In-Network
-P01561,Professional,OB/GYN,SC,In-Network
-P01562,Facility,Behavioral Health,TN,In-Network
-P01563,Professional,Radiology,AL,In-Network
-P01564,Facility,Behavioral Health,TX,In-Network
-P01565,Professional,Orthopedics,GA,In-Network
-P01566,Professional,Orthopedics,FL,In-Network
-P01567,Facility,Dermatology,VA,In-Network
-P01568,Professional,Orthopedics,TX,In-Network
-P01569,Professional,Cardiology,FL,In-Network
-P01570,Professional,Endocrinology,TX,In-Network
-P01571,Professional,Endocrinology,GA,In-Network
-P01572,Professional,OB/GYN,TN,In-Network
-P01573,Professional,Emergency Medicine,AL,In-Network
-P01574,Professional,Radiology,AL,In-Network
-P01575,Professional,Primary Care,FL,In-Network
-P01576,Professional,Emergency Medicine,VA,In-Network
-P01577,Professional,Gastroenterology,GA,In-Network
-P01578,Professional,OB/GYN,FL,In-Network
-P01579,Facility,OB/GYN,SC,Out-of-Network
-P01580,Facility,Dermatology,NC,In-Network
-P01581,Professional,Primary Care,GA,In-Network
-P01582,Professional,Behavioral Health,GA,Out-of-Network
-P01583,Professional,Orthopedics,TN,In-Network
-P01584,Professional,Emergency Medicine,TN,In-Network
-P01585,Professional,Radiology,TX,In-Network
-P01586,Professional,Behavioral Health,TN,In-Network
-P01587,Professional,Cardiology,VA,In-Network
-P01588,Facility,Gastroenterology,AL,In-Network
-P01589,Professional,Gastroenterology,TX,In-Network
-P01590,Professional,OB/GYN,AL,In-Network
-P01591,Professional,Emergency Medicine,TN,In-Network
-P01592,Professional,OB/GYN,TN,Out-of-Network
-P01593,Facility,Cardiology,AL,Out-of-Network
-P01594,Professional,Behavioral Health,TX,Out-of-Network
-P01595,Professional,OB/GYN,NC,In-Network
-P01596,Professional,Radiology,GA,In-Network
-P01597,Professional,Gastroenterology,SC,In-Network
-P01598,Professional,Dermatology,AL,Out-of-Network
-P01599,Professional,Gastroenterology,VA,In-Network
-P01600,Professional,Cardiology,TX,In-Network
-P01601,Professional,Emergency Medicine,NC,In-Network
-P01602,Facility,Radiology,AL,In-Network
-P01603,Professional,Radiology,TN,Out-of-Network
-P01604,Professional,Cardiology,SC,In-Network
-P01605,Professional,Endocrinology,TX,In-Network
-P01606,Professional,Radiology,NC,In-Network
-P01607,Professional,Endocrinology,NC,In-Network
-P01608,Professional,Gastroenterology,AL,In-Network
-P01609,Professional,Emergency Medicine,AL,In-Network
-P01610,Professional,Endocrinology,VA,In-Network
-P01611,Professional,OB/GYN,GA,In-Network
-P01612,Professional,OB/GYN,SC,In-Network
-P01613,Professional,Endocrinology,TN,In-Network
-P01614,Professional,Orthopedics,AL,Out-of-Network
-P01615,Professional,Endocrinology,SC,In-Network
-P01616,Professional,OB/GYN,FL,In-Network
-P01617,Professional,Emergency Medicine,AL,In-Network
-P01618,Professional,Endocrinology,NC,In-Network
-P01619,Facility,OB/GYN,TX,In-Network
-P01620,Facility,OB/GYN,VA,In-Network
-P01621,Professional,Primary Care,SC,In-Network
-P01622,Professional,OB/GYN,AL,In-Network
-P01623,Professional,Radiology,SC,In-Network
-P01624,Facility,Orthopedics,TN,In-Network
-P01625,Professional,Radiology,FL,In-Network
-P01626,Facility,Endocrinology,FL,Out-of-Network
-P01627,Professional,Cardiology,FL,Out-of-Network
-P01628,Professional,Behavioral Health,AL,In-Network
-P01629,Facility,Cardiology,NC,In-Network
-P01630,Professional,Emergency Medicine,GA,In-Network
-P01631,Facility,Primary Care,SC,In-Network
-P01632,Professional,Endocrinology,SC,In-Network
-P01633,Facility,Radiology,FL,In-Network
-P01634,Professional,Emergency Medicine,FL,In-Network
-P01635,Professional,Emergency Medicine,VA,In-Network
-P01636,Professional,Emergency Medicine,SC,In-Network
-P01637,Professional,Gastroenterology,VA,In-Network
-P01638,Facility,Emergency Medicine,AL,In-Network
-P01639,Professional,Emergency Medicine,TX,Out-of-Network
-P01640,Professional,Emergency Medicine,FL,Out-of-Network
-P01641,Facility,Dermatology,TN,In-Network
-P01642,Professional,Emergency Medicine,GA,In-Network
-P01643,Professional,Dermatology,SC,In-Network
-P01644,Professional,Emergency Medicine,GA,Out-of-Network
-P01645,Professional,Endocrinology,FL,Out-of-Network
-P01646,Professional,Radiology,NC,In-Network
-P01647,Professional,Emergency Medicine,NC,In-Network
-P01648,Facility,Behavioral Health,SC,In-Network
-P01649,Professional,Behavioral Health,FL,In-Network
-P01650,Professional,Dermatology,FL,In-Network
-P01651,Professional,Cardiology,AL,In-Network
-P01652,Professional,Behavioral Health,NC,In-Network
-P01653,Professional,Radiology,VA,In-Network
-P01654,Facility,Cardiology,FL,In-Network
-P01655,Professional,Behavioral Health,VA,In-Network
-P01656,Facility,Cardiology,TX,In-Network
-P01657,Professional,Radiology,TX,Out-of-Network
-P01658,Professional,Endocrinology,FL,In-Network
-P01659,Professional,Gastroenterology,NC,In-Network
-P01660,Facility,Radiology,VA,In-Network
-P01661,Facility,Behavioral Health,TX,Out-of-Network
-P01662,Professional,Radiology,AL,In-Network
-P01663,Professional,Gastroenterology,AL,In-Network
-P01664,Professional,Gastroenterology,VA,In-Network
-P01665,Professional,OB/GYN,NC,In-Network
-P01666,Professional,Emergency Medicine,AL,In-Network
-P01667,Professional,Primary Care,SC,Out-of-Network
-P01668,Professional,Primary Care,VA,Out-of-Network
-P01669,Professional,Primary Care,FL,In-Network
-P01670,Professional,Cardiology,FL,In-Network
-P01671,Professional,Orthopedics,FL,In-Network
-P01672,Facility,Behavioral Health,TX,In-Network
-P01673,Professional,OB/GYN,GA,Out-of-Network
-P01674,Professional,Radiology,GA,In-Network
-P01675,Professional,Orthopedics,AL,In-Network
-P01676,Professional,Cardiology,GA,In-Network
-P01677,Professional,Emergency Medicine,TX,In-Network
-P01678,Professional,OB/GYN,NC,In-Network
-P01679,Facility,Radiology,AL,In-Network
-P01680,Professional,Dermatology,GA,In-Network
-P01681,Professional,Cardiology,GA,In-Network
-P01682,Professional,Dermatology,AL,In-Network
-P01683,Facility,Behavioral Health,AL,Out-of-Network
-P01684,Professional,Emergency Medicine,SC,In-Network
-P01685,Professional,OB/GYN,TN,In-Network
-P01686,Facility,Behavioral Health,AL,In-Network
-P01687,Professional,Dermatology,FL,In-Network
-P01688,Professional,Emergency Medicine,GA,In-Network
-P01689,Professional,Orthopedics,GA,In-Network
-P01690,Professional,OB/GYN,NC,In-Network
-P01691,Professional,Dermatology,FL,In-Network
-P01692,Professional,OB/GYN,VA,In-Network
-P01693,Professional,Orthopedics,SC,In-Network
-P01694,Professional,Radiology,TX,Out-of-Network
-P01695,Professional,Emergency Medicine,TX,In-Network
-P01696,Professional,Endocrinology,TN,In-Network
-P01697,Professional,Gastroenterology,NC,In-Network
-P01698,Professional,Behavioral Health,NC,In-Network
-P01699,Professional,Endocrinology,FL,In-Network
-P01700,Professional,Orthopedics,VA,In-Network
-P01701,Professional,Behavioral Health,NC,In-Network
-P01702,Professional,Emergency Medicine,VA,In-Network
-P01703,Professional,Radiology,SC,In-Network
-P01704,Facility,Cardiology,AL,In-Network
-P01705,Professional,Radiology,VA,In-Network
-P01706,Facility,Primary Care,TN,In-Network
-P01707,Professional,Gastroenterology,VA,In-Network
-P01708,Professional,Radiology,VA,Out-of-Network
-P01709,Facility,Radiology,SC,In-Network
-P01710,Facility,Primary Care,VA,Out-of-Network
-P01711,Professional,Primary Care,FL,In-Network
-P01712,Professional,Emergency Medicine,NC,In-Network
-P01713,Professional,Behavioral Health,NC,In-Network
-P01714,Professional,Endocrinology,AL,Out-of-Network
-P01715,Professional,Cardiology,VA,In-Network
-P01716,Professional,OB/GYN,GA,In-Network
-P01717,Professional,Cardiology,AL,In-Network
-P01718,Professional,Endocrinology,GA,In-Network
-P01719,Professional,Orthopedics,SC,In-Network
-P01720,Professional,Cardiology,TN,In-Network
-P01721,Professional,Emergency Medicine,GA,In-Network
-P01722,Facility,Dermatology,NC,In-Network
-P01723,Professional,Gastroenterology,GA,In-Network
-P01724,Professional,OB/GYN,NC,In-Network
-P01725,Facility,Endocrinology,VA,In-Network
-P01726,Professional,Cardiology,FL,In-Network
-P01727,Professional,Behavioral Health,SC,In-Network
-P01728,Professional,Primary Care,GA,In-Network
-P01729,Facility,Cardiology,VA,In-Network
-P01730,Facility,Emergency Medicine,TN,Out-of-Network
-P01731,Facility,Emergency Medicine,TX,In-Network
-P01732,Professional,Dermatology,SC,Out-of-Network
-P01733,Professional,Behavioral Health,SC,In-Network
-P01734,Professional,Endocrinology,NC,In-Network
-P01735,Facility,Cardiology,TN,In-Network
-P01736,Professional,Emergency Medicine,NC,In-Network
-P01737,Professional,Gastroenterology,VA,In-Network
-P01738,Facility,Dermatology,NC,In-Network
-P01739,Professional,OB/GYN,FL,In-Network
-P01740,Professional,Emergency Medicine,NC,In-Network
-P01741,Professional,Cardiology,TX,In-Network
-P01742,Professional,Primary Care,TX,In-Network
-P01743,Professional,Orthopedics,AL,Out-of-Network
-P01744,Professional,Radiology,TX,In-Network
-P01745,Professional,Behavioral Health,TN,In-Network
-P01746,Professional,Cardiology,SC,In-Network
-P01747,Professional,Emergency Medicine,VA,In-Network
-P01748,Professional,Radiology,SC,In-Network
-P01749,Facility,Endocrinology,FL,In-Network
-P01750,Facility,Radiology,SC,In-Network
-P01751,Professional,Gastroenterology,SC,In-Network
-P01752,Professional,Endocrinology,TN,In-Network
-P01753,Facility,Orthopedics,VA,Out-of-Network
-P01754,Professional,Radiology,TN,In-Network
-P01755,Professional,Cardiology,TX,Out-of-Network
-P01756,Professional,Endocrinology,TN,In-Network
-P01757,Professional,Emergency Medicine,NC,In-Network
-P01758,Professional,Primary Care,SC,Out-of-Network
-P01759,Professional,Cardiology,GA,In-Network
-P01760,Professional,Dermatology,NC,In-Network
-P01761,Professional,OB/GYN,VA,In-Network
-P01762,Professional,Primary Care,SC,Out-of-Network
-P01763,Professional,Orthopedics,TN,In-Network
-P01764,Professional,Behavioral Health,FL,In-Network
-P01765,Professional,Emergency Medicine,SC,In-Network
-P01766,Professional,Behavioral Health,NC,In-Network
-P01767,Professional,Emergency Medicine,VA,In-Network
-P01768,Professional,Radiology,TN,In-Network
-P01769,Professional,Gastroenterology,FL,Out-of-Network
-P01770,Professional,Behavioral Health,TX,In-Network
-P01771,Professional,Primary Care,GA,In-Network
-P01772,Professional,Endocrinology,TN,In-Network
-P01773,Professional,Primary Care,AL,In-Network
-P01774,Facility,Dermatology,NC,In-Network
-P01775,Professional,Radiology,GA,In-Network
-P01776,Facility,Cardiology,TX,In-Network
-P01777,Professional,Dermatology,TX,In-Network
-P01778,Professional,Behavioral Health,GA,In-Network
-P01779,Professional,Orthopedics,TN,In-Network
-P01780,Professional,Cardiology,TN,Out-of-Network
-P01781,Professional,Endocrinology,FL,In-Network
-P01782,Facility,Gastroenterology,FL,In-Network
-P01783,Facility,Gastroenterology,TN,In-Network
-P01784,Professional,Gastroenterology,NC,In-Network
-P01785,Facility,Radiology,VA,In-Network
-P01786,Professional,Cardiology,SC,In-Network
-P01787,Professional,Orthopedics,TX,Out-of-Network
-P01788,Professional,Cardiology,SC,In-Network
-P01789,Professional,Primary Care,FL,In-Network
-P01790,Professional,Primary Care,GA,In-Network
-P01791,Professional,Gastroenterology,AL,In-Network
-P01792,Professional,Orthopedics,AL,In-Network
-P01793,Facility,Primary Care,GA,In-Network
-P01794,Professional,Radiology,TN,In-Network
-P01795,Professional,Primary Care,GA,Out-of-Network
-P01796,Professional,Orthopedics,GA,Out-of-Network
-P01797,Professional,Gastroenterology,TN,In-Network
-P01798,Professional,OB/GYN,VA,In-Network
-P01799,Professional,Orthopedics,AL,In-Network
-P01800,Professional,OB/GYN,SC,Out-of-Network
-P01801,Facility,Primary Care,AL,In-Network
-P01802,Professional,Behavioral Health,SC,Out-of-Network
-P01803,Professional,Emergency Medicine,NC,In-Network
-P01804,Professional,Endocrinology,TN,In-Network
-P01805,Professional,Endocrinology,VA,In-Network
-P01806,Professional,OB/GYN,TX,Out-of-Network
-P01807,Professional,Endocrinology,SC,In-Network
-P01808,Professional,Emergency Medicine,AL,Out-of-Network
-P01809,Professional,Behavioral Health,FL,In-Network
-P01810,Professional,Endocrinology,NC,In-Network
-P01811,Professional,Radiology,SC,In-Network
-P01812,Professional,OB/GYN,NC,In-Network
-P01813,Facility,Dermatology,SC,In-Network
-P01814,Facility,Radiology,AL,Out-of-Network
-P01815,Professional,Endocrinology,GA,In-Network
-P01816,Professional,Gastroenterology,FL,Out-of-Network
-P01817,Professional,OB/GYN,FL,In-Network
-P01818,Professional,Emergency Medicine,NC,Out-of-Network
-P01819,Professional,Radiology,TX,Out-of-Network
-P01820,Professional,Primary Care,TX,In-Network
-P01821,Professional,Behavioral Health,GA,In-Network
-P01822,Professional,Primary Care,GA,In-Network
-P01823,Professional,Emergency Medicine,SC,In-Network
-P01824,Professional,Endocrinology,TX,In-Network
-P01825,Professional,Emergency Medicine,FL,In-Network
-P01826,Professional,Primary Care,VA,In-Network
-P01827,Professional,Gastroenterology,TX,In-Network
-P01828,Facility,Orthopedics,NC,In-Network
-P01829,Professional,Orthopedics,TN,In-Network
-P01830,Professional,OB/GYN,AL,In-Network
-P01831,Professional,Behavioral Health,SC,In-Network
-P01832,Facility,Emergency Medicine,TN,In-Network
-P01833,Facility,Radiology,TN,In-Network
-P01834,Professional,Dermatology,FL,Out-of-Network
-P01835,Professional,Endocrinology,VA,In-Network
-P01836,Facility,Orthopedics,VA,In-Network
-P01837,Professional,Behavioral Health,TX,In-Network
-P01838,Professional,Gastroenterology,NC,In-Network
-P01839,Professional,Emergency Medicine,NC,In-Network
-P01840,Professional,Cardiology,GA,In-Network
-P01841,Facility,Cardiology,FL,In-Network
-P01842,Professional,Gastroenterology,SC,In-Network
-P01843,Professional,Cardiology,NC,In-Network
-P01844,Professional,Radiology,GA,In-Network
-P01845,Facility,Primary Care,FL,In-Network
-P01846,Professional,Orthopedics,VA,In-Network
-P01847,Professional,Emergency Medicine,NC,In-Network
-P01848,Professional,Primary Care,TX,Out-of-Network
-P01849,Professional,Cardiology,SC,In-Network
-P01850,Professional,Dermatology,NC,In-Network
-P01851,Professional,Endocrinology,SC,In-Network
-P01852,Professional,Orthopedics,AL,In-Network
-P01853,Facility,Radiology,AL,In-Network
-P01854,Professional,OB/GYN,FL,In-Network
-P01855,Facility,Cardiology,GA,In-Network
-P01856,Professional,Gastroenterology,FL,In-Network
-P01857,Professional,Behavioral Health,TN,Out-of-Network
-P01858,Facility,OB/GYN,SC,In-Network
-P01859,Professional,Emergency Medicine,NC,In-Network
-P01860,Professional,Behavioral Health,SC,In-Network
-P01861,Professional,OB/GYN,TN,In-Network
-P01862,Professional,Emergency Medicine,SC,In-Network
-P01863,Professional,Cardiology,SC,In-Network
-P01864,Professional,Emergency Medicine,AL,In-Network
-P01865,Professional,Behavioral Health,VA,In-Network
-P01866,Facility,Orthopedics,AL,In-Network
-P01867,Professional,Gastroenterology,TX,In-Network
-P01868,Professional,Primary Care,GA,In-Network
-P01869,Facility,Primary Care,AL,In-Network
-P01870,Professional,OB/GYN,TX,In-Network
-P01871,Professional,OB/GYN,FL,In-Network
-P01872,Facility,Dermatology,NC,In-Network
-P01873,Professional,Cardiology,GA,In-Network
-P01874,Professional,Orthopedics,TN,In-Network
-P01875,Professional,Behavioral Health,TN,In-Network
-P01876,Professional,Radiology,SC,In-Network
-P01877,Professional,OB/GYN,FL,In-Network
-P01878,Professional,Behavioral Health,TN,In-Network
-P01879,Professional,Dermatology,FL,In-Network
-P01880,Facility,Primary Care,GA,In-Network
-P01881,Professional,Emergency Medicine,AL,Out-of-Network
-P01882,Professional,Gastroenterology,AL,In-Network
-P01883,Professional,Dermatology,TX,Out-of-Network
-P01884,Professional,Primary Care,VA,In-Network
-P01885,Facility,Dermatology,NC,In-Network
-P01886,Professional,Endocrinology,TX,In-Network
-P01887,Facility,Endocrinology,SC,In-Network
-P01888,Professional,Radiology,TX,In-Network
-P01889,Facility,Cardiology,NC,In-Network
-P01890,Professional,OB/GYN,GA,In-Network
-P01891,Professional,Orthopedics,FL,In-Network
-P01892,Professional,Behavioral Health,TN,In-Network
-P01893,Professional,Cardiology,NC,In-Network
-P01894,Professional,OB/GYN,SC,In-Network
-P01895,Professional,Primary Care,AL,Out-of-Network
-P01896,Facility,Radiology,TX,Out-of-Network
-P01897,Facility,Gastroenterology,NC,Out-of-Network
-P01898,Professional,Orthopedics,GA,In-Network
-P01899,Professional,Behavioral Health,VA,Out-of-Network
-P01900,Professional,Orthopedics,NC,In-Network
-P01901,Professional,Behavioral Health,TN,In-Network
-P01902,Professional,Primary Care,TX,In-Network
-P01903,Facility,Emergency Medicine,TN,In-Network
-P01904,Professional,Behavioral Health,AL,In-Network
-P01905,Professional,Emergency Medicine,TN,In-Network
-P01906,Facility,Dermatology,TN,In-Network
-P01907,Professional,Radiology,VA,In-Network
-P01908,Professional,OB/GYN,TN,Out-of-Network
-P01909,Professional,OB/GYN,AL,In-Network
-P01910,Facility,Behavioral Health,NC,In-Network
-P01911,Professional,Radiology,NC,In-Network
-P01912,Professional,Emergency Medicine,VA,In-Network
-P01913,Professional,Dermatology,TX,In-Network
-P01914,Professional,Emergency Medicine,AL,In-Network
-P01915,Professional,Primary Care,SC,In-Network
-P01916,Professional,Dermatology,FL,In-Network
-P01917,Professional,Endocrinology,FL,In-Network
-P01918,Facility,Dermatology,TN,In-Network
-P01919,Professional,Emergency Medicine,AL,In-Network
-P01920,Professional,Gastroenterology,GA,In-Network
-P01921,Professional,Dermatology,TN,In-Network
-P01922,Professional,Cardiology,GA,In-Network
-P01923,Facility,Dermatology,GA,In-Network
-P01924,Professional,Cardiology,AL,Out-of-Network
-P01925,Facility,Cardiology,TN,In-Network
-P01926,Facility,Radiology,AL,In-Network
-P01927,Professional,Cardiology,TX,In-Network
-P01928,Professional,Cardiology,VA,In-Network
-P01929,Professional,Primary Care,GA,In-Network
-P01930,Facility,Orthopedics,TN,Out-of-Network
-P01931,Professional,Gastroenterology,SC,In-Network
-P01932,Professional,Gastroenterology,TN,In-Network
-P01933,Professional,Emergency Medicine,TN,In-Network
-P01934,Professional,Primary Care,GA,In-Network
-P01935,Professional,Primary Care,NC,In-Network
-P01936,Professional,Emergency Medicine,AL,In-Network
-P01937,Professional,Orthopedics,VA,In-Network
-P01938,Professional,Behavioral Health,GA,In-Network
-P01939,Professional,Emergency Medicine,NC,In-Network
-P01940,Professional,Primary Care,NC,In-Network
-P01941,Professional,Endocrinology,TX,In-Network
-P01942,Professional,Orthopedics,FL,In-Network
-P01943,Professional,OB/GYN,TN,Out-of-Network
-P01944,Professional,Radiology,TN,In-Network
-P01945,Facility,Emergency Medicine,AL,In-Network
-P01946,Professional,OB/GYN,GA,In-Network
-P01947,Professional,OB/GYN,SC,In-Network
-P01948,Professional,Primary Care,SC,In-Network
-P01949,Professional,Gastroenterology,FL,In-Network
-P01950,Professional,Emergency Medicine,AL,In-Network
-P01951,Professional,Emergency Medicine,SC,In-Network
-P01952,Professional,OB/GYN,TX,In-Network
-P01953,Professional,Behavioral Health,TN,In-Network
-P01954,Professional,Behavioral Health,GA,In-Network
-P01955,Professional,Orthopedics,VA,In-Network
-P01956,Professional,Primary Care,TX,In-Network
-P01957,Professional,Behavioral Health,FL,In-Network
-P01958,Professional,Primary Care,SC,In-Network
-P01959,Professional,Dermatology,GA,In-Network
-P01960,Professional,Orthopedics,TX,In-Network
-P01961,Professional,Gastroenterology,FL,In-Network
-P01962,Facility,OB/GYN,TN,In-Network
-P01963,Professional,Primary Care,FL,In-Network
-P01964,Professional,Orthopedics,GA,In-Network
-P01965,Professional,Orthopedics,TN,In-Network
-P01966,Professional,Primary Care,NC,Out-of-Network
-P01967,Professional,Primary Care,GA,In-Network
-P01968,Professional,OB/GYN,NC,In-Network
-P01969,Facility,Primary Care,VA,Out-of-Network
-P01970,Professional,Orthopedics,FL,In-Network
-P01971,Professional,Orthopedics,AL,In-Network
-P01972,Professional,Gastroenterology,AL,In-Network
-P01973,Professional,Radiology,TX,In-Network
-P01974,Professional,Dermatology,SC,In-Network
-P01975,Professional,Endocrinology,TN,In-Network
-P01976,Professional,Emergency Medicine,GA,In-Network
-P01977,Professional,Emergency Medicine,TN,In-Network
-P01978,Professional,Orthopedics,FL,In-Network
-P01979,Professional,Orthopedics,AL,In-Network
-P01980,Professional,Endocrinology,FL,In-Network
-P01981,Professional,Cardiology,VA,In-Network
-P01982,Facility,Cardiology,AL,In-Network
-P01983,Professional,Gastroenterology,SC,Out-of-Network
-P01984,Professional,Emergency Medicine,TX,In-Network
-P01985,Professional,Orthopedics,TX,In-Network
-P01986,Professional,Dermatology,SC,In-Network
-P01987,Professional,Cardiology,VA,In-Network
-P01988,Professional,Primary Care,GA,In-Network
-P01989,Professional,OB/GYN,AL,In-Network
-P01990,Professional,Endocrinology,TN,In-Network
-P01991,Facility,OB/GYN,GA,In-Network
-P01992,Facility,Dermatology,NC,In-Network
-P01993,Professional,Dermatology,FL,In-Network
-P01994,Professional,Orthopedics,VA,In-Network
-P01995,Facility,Dermatology,SC,In-Network
-P01996,Professional,Gastroenterology,NC,In-Network
-P01997,Professional,Behavioral Health,NC,In-Network
-P01998,Professional,Cardiology,TN,In-Network
-P01999,Professional,Dermatology,NC,In-Network
-P02000,Professional,Emergency Medicine,SC,In-Network
+provider_id,provider_name,specialty,region
+PR0001,"Rodriguez, Figueroa and Sanchez Associates",Behavioral Health,West
+PR0002,Doyle Ltd Medical Group,Endocrinology,West
+PR0003,"Mcclain, Miller and Henderson Clinic",Behavioral Health,Midwest
+PR0004,Davis and Sons Health,Behavioral Health,Midwest
+PR0005,"Guzman, Hoffman and Baldwin Medical Group",Endocrinology,Southwest
+PR0006,"Gardner, Robinson and Lawrence Associates",Endocrinology,Midwest
+PR0007,Blake and Sons Medical Group,Radiology,Southeast
+PR0008,"Henderson, Ramirez and Lewis Associates",Endocrinology,Southeast
+PR0009,Garcia-James Medical Group,Emergency Medicine,Southwest
+PR0010,Abbott-Munoz Clinic,General Surgery,West
+PR0011,Blair PLC Medical Group,Nephrology,Midwest
+PR0012,Dudley Group Associates,General Surgery,Southwest
+PR0013,Arnold Ltd Associates,Orthopedics,Southwest
+PR0014,"Mcclure, Ward and Lee Health",Nephrology,West
+PR0015,Williams and Sons Health,Orthopedics,West
+PR0016,Galloway-Wyatt Health,Nephrology,Southeast
+PR0017,James Group Medical Group,Oncology,Southwest
+PR0018,"Flowers, Martin and Kelly Clinic",Cardiology,Northeast
+PR0019,"Adams, Zuniga and Wong Medical Group",General Surgery,Southeast
+PR0020,"Reid, Ferguson and Sanchez Associates",Oncology,Southwest
+PR0021,Gray-Mayo Associates,Behavioral Health,West
+PR0022,"Watts, Robinson and Nguyen Health",Endocrinology,Midwest
+PR0023,Perez Inc Associates,Primary Care,Southeast
+PR0024,Morales-Jones Associates,Endocrinology,Southeast
+PR0025,"Walter, Edwards and Rios Clinic",Radiology,Southeast
+PR0026,Wilkerson-Day Clinic,Oncology,West
+PR0027,Baker and Sons Clinic,Cardiology,Southwest
+PR0028,"Hoffman, Baker and Richards Clinic",Cardiology,Southwest
+PR0029,"Ross, Robinson and Bright Clinic",Endocrinology,Southwest
+PR0030,"Snyder, Campos and Callahan Clinic",Nephrology,West
+PR0031,Burton Ltd Health,Cardiology,West
+PR0032,Carlson-Cruz Clinic,Endocrinology,Northeast
+PR0033,"Ferrell, Rice and Maddox Medical Group",Nephrology,West
+PR0034,Frazier Inc Medical Group,Primary Care,Northeast
+PR0035,"Dyer, Potter and Mack Medical Group",Endocrinology,Southwest
+PR0036,Rodriguez-Graham Associates,Endocrinology,Midwest
+PR0037,Smith-Bowen Medical Group,Orthopedics,Midwest
+PR0038,"Baker, Mason and White Medical Group",Orthopedics,Midwest
+PR0039,Harrell LLC Clinic,Emergency Medicine,Southeast
+PR0040,"Romero, Gonzalez and Brooks Associates",Nephrology,Northeast
+PR0041,Ryan PLC Associates,Endocrinology,Southeast
+PR0042,George Group Associates,Primary Care,West
+PR0043,Rodriguez LLC Associates,Orthopedics,Midwest
+PR0044,Allen-Allen Medical Group,Orthopedics,Midwest
+PR0045,"Arroyo, Miller and Tucker Health",Emergency Medicine,Midwest
+PR0046,Spence PLC Medical Group,Primary Care,Southeast
+PR0047,Anderson Group Health,Behavioral Health,Midwest
+PR0048,"Martin, Rose and Obrien Health",Nephrology,Southeast
+PR0049,Hickman Ltd Associates,General Surgery,West
+PR0050,"Harris, Collins and Carney Health",Orthopedics,Northeast
+PR0051,"Brooks, Lam and Hayes Medical Group",Oncology,Southwest
+PR0052,Walker LLC Health,Emergency Medicine,West
+PR0053,Chapman and Sons Medical Group,Oncology,Midwest
+PR0054,"Robinson, Jones and Welch Clinic",Orthopedics,Southwest
+PR0055,Jones Inc Clinic,Cardiology,West
+PR0056,Jones-Young Medical Group,Nephrology,Southwest
+PR0057,"Washington, Ryan and Cummings Clinic",Oncology,Midwest
+PR0058,"Johnston, Sanchez and Kennedy Health",General Surgery,Southwest
+PR0059,Lee-Davis Health,Nephrology,Northeast
+PR0060,Gomez-Jenkins Medical Group,Primary Care,Midwest
+PR0061,"Brown, Valdez and Lucas Associates",Nephrology,West
+PR0062,Powell LLC Health,Nephrology,Midwest
+PR0063,Wright and Sons Clinic,Nephrology,West
+PR0064,"West, Henderson and Ramirez Health",Primary Care,Southeast
+PR0065,Baxter Inc Health,Endocrinology,Midwest
+PR0066,Morton-Chase Associates,Radiology,Northeast
+PR0067,Williams PLC Medical Group,Oncology,Northeast
+PR0068,Novak and Sons Associates,General Surgery,Southwest
+PR0069,Russell Group Clinic,Behavioral Health,Midwest
+PR0070,Hancock Inc Medical Group,Primary Care,Northeast
+PR0071,Gray Group Medical Group,Endocrinology,Midwest
+PR0072,House-Glover Clinic,Primary Care,Southeast
+PR0073,Henderson-Bernard Health,Radiology,West
+PR0074,"Stanley, Tucker and Lee Medical Group",Primary Care,Midwest
+PR0075,Novak PLC Medical Group,Cardiology,Southwest
+PR0076,"Daniels, Adkins and Brown Associates",General Surgery,Southwest
+PR0077,"Woods, Calhoun and Schmidt Health",Behavioral Health,Midwest
+PR0078,Yu Inc Health,Primary Care,West
+PR0079,Jones Inc Clinic,Oncology,Midwest
+PR0080,"Hensley, Powell and David Medical Group",Primary Care,Southwest
+PR0081,"Sanchez, Wheeler and Harvey Associates",Radiology,West
+PR0082,Sandoval-Cunningham Associates,Orthopedics,Southwest
+PR0083,Donovan-Harris Health,Oncology,Southeast
+PR0084,"Edwards, Baker and Anderson Health",Orthopedics,Midwest
+PR0085,"Evans, Stewart and Walton Associates",Oncology,Southwest
+PR0086,Smith PLC Medical Group,Nephrology,Southeast
+PR0087,"Ferrell, Jones and Lewis Medical Group",Endocrinology,Midwest
+PR0088,Anderson-Bailey Medical Group,Nephrology,Southeast
+PR0089,Suarez LLC Health,Behavioral Health,Southeast
+PR0090,Moore-Bass Health,Orthopedics,Southwest
+PR0091,"Turner, Riggs and Roman Associates",General Surgery,Northeast
+PR0092,"Smith, Montoya and Evans Associates",Oncology,Northeast
+PR0093,"Garcia, Humphrey and Baker Medical Group",Cardiology,Southwest
+PR0094,Newton and Sons Medical Group,Emergency Medicine,Midwest
+PR0095,Campbell-Clark Medical Group,Behavioral Health,Northeast
+PR0096,Harris-Walters Health,Orthopedics,Midwest
+PR0097,Wagner-King Associates,Oncology,Northeast
+PR0098,Davis Group Associates,Endocrinology,Midwest
+PR0099,Williams-Cook Associates,Primary Care,Southwest
+PR0100,Walsh LLC Associates,Radiology,Southwest
+PR0101,Figueroa PLC Associates,Orthopedics,Northeast
+PR0102,"Patterson, Smith and Jones Medical Group",Orthopedics,West
+PR0103,"Mckee, Gardner and Davenport Associates",Cardiology,Southeast
+PR0104,"Tran, Jordan and Williams Clinic",Cardiology,Midwest
+PR0105,Nolan-Flynn Associates,Nephrology,Northeast
+PR0106,Nolan and Sons Medical Group,Oncology,West
+PR0107,"Wright, Garcia and Deleon Associates",Oncology,Midwest
+PR0108,Dickson-Brady Associates,Primary Care,Northeast
+PR0109,Hancock and Sons Clinic,Orthopedics,West
+PR0110,Johnson-Doyle Clinic,Orthopedics,Midwest
+PR0111,Patton-Jenkins Medical Group,Cardiology,Northeast
+PR0112,"Shields, Cochran and Adams Medical Group",Primary Care,Southwest
+PR0113,"Rodriguez, Brennan and Garrison Associates",Orthopedics,Midwest
+PR0114,Gonzalez Group Associates,Primary Care,Northeast
+PR0115,Torres-Pope Clinic,Emergency Medicine,Midwest
+PR0116,Walker Ltd Medical Group,Nephrology,West
+PR0117,Ross LLC Clinic,Primary Care,West
+PR0118,Rasmussen LLC Associates,Orthopedics,Northeast
+PR0119,May-Ross Health,Oncology,West
+PR0120,"Rivera, Johnson and Wiley Associates",Emergency Medicine,Northeast
+PR0121,White-Estes Associates,Orthopedics,Southeast
+PR0122,Johnson-Carlson Clinic,Nephrology,Southeast
+PR0123,Chandler-Edwards Associates,Orthopedics,Southeast
+PR0124,"Joyce, Wilson and Lam Health",Radiology,Southeast
+PR0125,Scott Ltd Clinic,General Surgery,Southeast
+PR0126,Smith-Frost Associates,Primary Care,Northeast
+PR0127,"Mcdaniel, Bentley and Mclaughlin Health",Nephrology,West
+PR0128,Diaz Inc Health,General Surgery,Southeast
+PR0129,"Mccall, Hanson and Alvarado Clinic",Orthopedics,Northeast
+PR0130,Cortez LLC Medical Group,Endocrinology,Southwest
+PR0131,"Parker, Ortiz and Powell Health",General Surgery,Northeast
+PR0132,Spencer-Lee Medical Group,Oncology,Southwest
+PR0133,"Bentley, Byrd and Orr Associates",Primary Care,Southwest
+PR0134,"Carroll, Sullivan and Bass Health",Orthopedics,Southwest
+PR0135,Mitchell-Jordan Clinic,Cardiology,Midwest
+PR0136,"Lawson, Morris and Ramos Clinic",Nephrology,West
+PR0137,"Lewis, Kennedy and Santana Clinic",Radiology,Southeast
+PR0138,"Jackson, Miller and Robertson Medical Group",Radiology,Southwest
+PR0139,"Harvey, Davis and Crane Clinic",General Surgery,Midwest
+PR0140,Chambers and Sons Medical Group,Emergency Medicine,West
+PR0141,Hernandez Inc Health,Emergency Medicine,Southwest
+PR0142,Riggs PLC Medical Group,Radiology,Southwest
+PR0143,Gibson Ltd Health,Orthopedics,Southwest
+PR0144,"Lee, Horton and Snyder Associates",Cardiology,Southeast
+PR0145,Hernandez Ltd Medical Group,Orthopedics,Midwest
+PR0146,Stafford Inc Health,General Surgery,Southeast
+PR0147,Robinson-Brock Clinic,Emergency Medicine,West
+PR0148,"Holmes, Williams and Wright Health",Behavioral Health,Northeast
+PR0149,Bryant Group Medical Group,Emergency Medicine,Southeast
+PR0150,"Schmidt, Hansen and Stewart Medical Group",General Surgery,Southeast
+PR0151,Salazar-Ball Associates,Radiology,Northeast
+PR0152,"Simmons, Meadows and Griffin Medical Group",Endocrinology,West
+PR0153,Manning Group Associates,Primary Care,West
+PR0154,Green-Wright Associates,Behavioral Health,West
+PR0155,"Ramirez, Strickland and Washington Medical Group",Radiology,Midwest
+PR0156,Hill Inc Associates,General Surgery,Midwest
+PR0157,"Mitchell, Nelson and Flores Clinic",Emergency Medicine,Northeast
+PR0158,"Miller, Hernandez and Reyes Health",Emergency Medicine,Northeast
+PR0159,Mccarthy Inc Medical Group,Oncology,Southwest
+PR0160,Russell-Daniels Clinic,General Surgery,West
+PR0161,Brown-Wall Associates,Behavioral Health,Northeast
+PR0162,Stein-Silva Health,Emergency Medicine,Southeast
+PR0163,"Smith, Gilmore and Johnston Clinic",General Surgery,West
+PR0164,Smith-Bell Clinic,Oncology,Southwest
+PR0165,Castaneda-Ashley Clinic,General Surgery,Midwest
+PR0166,Medina-Navarro Associates,General Surgery,Northeast
+PR0167,"Hurst, Freeman and Nelson Medical Group",Endocrinology,West
+PR0168,Johnson-Rogers Associates,Oncology,Southeast
+PR0169,"Yates, Ramsey and Pittman Associates",Primary Care,Midwest
+PR0170,Hooper PLC Associates,Oncology,Southwest
+PR0171,Meadows PLC Health,Cardiology,Southwest
+PR0172,"Alvarado, Miller and Patterson Medical Group",Primary Care,West
+PR0173,White-Green Health,Orthopedics,West
+PR0174,Lewis-Murphy Medical Group,Orthopedics,Northeast
+PR0175,Ramirez-Bean Clinic,Endocrinology,Midwest
+PR0176,King-Miller Medical Group,Cardiology,Midwest
+PR0177,Curry Inc Health,Cardiology,Northeast
+PR0178,Walker-Jones Associates,General Surgery,West
+PR0179,"Williams, Johnson and Wright Clinic",General Surgery,Southeast
+PR0180,Howell and Sons Health,Cardiology,Northeast
+PR0181,Wells Inc Associates,Behavioral Health,Southeast
+PR0182,"Gould, Marshall and Scott Clinic",Emergency Medicine,West
+PR0183,Jackson-Lawson Associates,Endocrinology,Northeast
+PR0184,"Higgins, Strickland and Martin Medical Group",Emergency Medicine,Northeast
+PR0185,Rodriguez-Johnson Clinic,Oncology,West
+PR0186,Johnston-Odonnell Associates,Nephrology,Midwest
+PR0187,Sanders-Espinoza Health,Primary Care,Southwest
+PR0188,Vargas Ltd Medical Group,Cardiology,West
+PR0189,Garcia LLC Health,Primary Care,West
+PR0190,"Burke, Martinez and Riggs Medical Group",Behavioral Health,Midwest
+PR0191,Reed Group Clinic,Nephrology,Northeast
+PR0192,"Wood, Hunter and Peterson Clinic",Primary Care,Southwest
+PR0193,Short-Garcia Clinic,Nephrology,West
+PR0194,Reid-Poole Medical Group,Orthopedics,Southwest
+PR0195,"Hernandez, Thompson and Boyd Health",Nephrology,Southwest
+PR0196,"Nelson, Morton and Medina Health",Nephrology,Southwest
+PR0197,Marshall-Petersen Health,Oncology,Southeast
+PR0198,"Adams, Christian and Rivas Medical Group",Emergency Medicine,Midwest
+PR0199,Ramirez Group Associates,Nephrology,Midwest
+PR0200,Christensen PLC Associates,Emergency Medicine,West
+PR0201,"Barnett, Rogers and Snyder Associates",Behavioral Health,Northeast
+PR0202,White-Lewis Medical Group,Behavioral Health,West
+PR0203,Peterson-Beard Clinic,General Surgery,Southeast
+PR0204,"Beard, Peters and Black Health",Emergency Medicine,West
+PR0205,Miller Ltd Health,Cardiology,Southwest
+PR0206,Freeman-Chang Clinic,Nephrology,Southeast
+PR0207,"Alvarez, Joseph and West Medical Group",Primary Care,West
+PR0208,Davis and Sons Clinic,Endocrinology,Northeast
+PR0209,Holt-Torres Health,Cardiology,Southeast
+PR0210,"Wood, Tran and Cooper Medical Group",Cardiology,West
+PR0211,"Pierce, Bell and Chavez Clinic",Emergency Medicine,Midwest
+PR0212,King-Martinez Associates,Endocrinology,West
+PR0213,Stewart Ltd Clinic,Primary Care,Southwest
+PR0214,"Tapia, Vaughn and Lee Health",Primary Care,Northeast
+PR0215,"Washington, Hardy and Bray Associates",Oncology,Southwest
+PR0216,"Carlson, Hooper and Wall Medical Group",Orthopedics,Southwest
+PR0217,Perez-White Health,Radiology,Midwest
+PR0218,Erickson and Sons Clinic,General Surgery,Midwest
+PR0219,Williams-Brown Clinic,Behavioral Health,Midwest
+PR0220,Terry-Martinez Associates,Cardiology,Southeast
+PR0221,Garcia-Smith Associates,Oncology,West
+PR0222,Harrison-Alexander Health,Nephrology,Northeast
+PR0223,Sheppard LLC Medical Group,Orthopedics,Southwest
+PR0224,Wilson-Jones Health,Nephrology,Southwest
+PR0225,Jones-Soto Medical Group,Primary Care,Northeast
+PR0226,Hernandez PLC Medical Group,Radiology,Southeast
+PR0227,Miller-Wright Associates,Emergency Medicine,West
+PR0228,"Duran, Obrien and Gibbs Associates",Emergency Medicine,Midwest
+PR0229,Rowe Group Associates,Orthopedics,Northeast
+PR0230,Kerr-Evans Health,Cardiology,Northeast
+PR0231,"Branch, Torres and Oliver Clinic",Primary Care,Northeast
+PR0232,"Choi, Garcia and Farmer Clinic",Emergency Medicine,Midwest
+PR0233,"Clark, Guerrero and Moore Medical Group",Behavioral Health,Midwest
+PR0234,Arnold and Sons Associates,General Surgery,Southwest
+PR0235,Ortiz Ltd Associates,Endocrinology,West
+PR0236,"Harrison, Johnson and Roberts Clinic",Endocrinology,Southwest
+PR0237,Warner-Gibson Clinic,Oncology,Southeast
+PR0238,"Hall, Baker and Moody Associates",Cardiology,Southwest
+PR0239,"Guerrero, Peck and Coleman Medical Group",Emergency Medicine,Southwest
+PR0240,"Walker, Hernandez and Baker Health",Radiology,Northeast
+PR0241,Jones and Sons Medical Group,Nephrology,West
+PR0242,Larson-Holloway Medical Group,Oncology,Southwest
+PR0243,Gonzales-Harrison Medical Group,Orthopedics,Southeast
+PR0244,Lyons-Bender Associates,Orthopedics,West
+PR0245,"Fernandez, Kim and George Clinic",Nephrology,Southeast
+PR0246,Navarro-Munoz Clinic,Endocrinology,Southeast
+PR0247,Davis Ltd Health,Emergency Medicine,Northeast
+PR0248,"Matthews, Smith and Hubbard Medical Group",Radiology,Southeast
+PR0249,Johnston-Hines Health,Primary Care,West
+PR0250,Ruiz Ltd Health,General Surgery,Northeast
+PR0251,Moon-White Health,Radiology,Midwest
+PR0252,"Graham, Olsen and Costa Medical Group",Primary Care,Northeast
+PR0253,Bailey-Cook Medical Group,Cardiology,Midwest
+PR0254,"Garcia, Martin and Jenkins Medical Group",Primary Care,Southwest
+PR0255,Roberts-Landry Medical Group,Primary Care,West
+PR0256,"Johnson, Miller and King Health",Radiology,West
+PR0257,Cordova Group Medical Group,Behavioral Health,West
+PR0258,"Bryan, Smith and Booth Clinic",Emergency Medicine,Southeast
+PR0259,Gutierrez-Lopez Medical Group,Orthopedics,West
+PR0260,Dean-Jimenez Clinic,Nephrology,Northeast
+PR0261,Wolf-Harris Medical Group,Orthopedics,West
+PR0262,"Anderson, Roberts and Gilmore Clinic",Oncology,Northeast
+PR0263,Martinez-Dudley Associates,Primary Care,Southeast
+PR0264,"Lloyd, Mckinney and Collins Health",Endocrinology,Southeast
+PR0265,Tran Inc Clinic,General Surgery,Midwest
+PR0266,Gay Inc Associates,Cardiology,Northeast
+PR0267,Valentine-Holland Associates,Radiology,West
+PR0268,Jimenez Ltd Medical Group,Nephrology,West
+PR0269,Hicks-Hill Clinic,Emergency Medicine,Southeast
+PR0270,Baird-Sanchez Health,Orthopedics,Southwest
+PR0271,"Thomas, Lee and Greene Clinic",Cardiology,Southeast
+PR0272,"Suarez, Shields and Hill Clinic",Cardiology,Midwest
+PR0273,Morgan-French Health,Orthopedics,Southeast
+PR0274,Hoover-Campbell Medical Group,Oncology,Northeast
+PR0275,Monroe-Carpenter Health,Endocrinology,Southwest
+PR0276,"Burns, Hernandez and Ryan Clinic",Behavioral Health,Midwest
+PR0277,Cook-Hines Medical Group,Primary Care,West
+PR0278,Gibson-Morris Clinic,Oncology,Northeast
+PR0279,Pollard and Sons Medical Group,General Surgery,Southwest
+PR0280,"Reyes, Chase and Jenkins Associates",Oncology,West
+PR0281,Garner-Thornton Clinic,Cardiology,West
+PR0282,Hughes-Alvarado Medical Group,Cardiology,Midwest
+PR0283,"Pollard, Simpson and Johnson Health",Orthopedics,Northeast
+PR0284,"Sanford, Rivera and Garcia Health",Behavioral Health,Midwest
+PR0285,Garcia-Lozano Associates,Radiology,Southwest
+PR0286,Bowen Group Associates,Endocrinology,Northeast
+PR0287,"Booker, Jones and Harrington Associates",Orthopedics,Midwest
+PR0288,Morgan-Schwartz Medical Group,Cardiology,Southeast
+PR0289,"Miller, Murphy and Craig Health",Orthopedics,West
+PR0290,"James, Stewart and Higgins Clinic",Emergency Medicine,Southwest
+PR0291,Brennan-Johnson Medical Group,General Surgery,West
+PR0292,Young Ltd Medical Group,Radiology,West
+PR0293,Bright-Francis Associates,Nephrology,Southeast
+PR0294,Good-Hodges Medical Group,Cardiology,Southeast
+PR0295,"Brennan, Wallace and Benson Clinic",Nephrology,Northeast
+PR0296,Williams Inc Clinic,Nephrology,Midwest
+PR0297,Howard-Jordan Clinic,Primary Care,Southwest
+PR0298,Schmidt PLC Associates,Primary Care,Northeast
+PR0299,"Sparks, Jackson and Miller Medical Group",Orthopedics,Southwest
+PR0300,Harvey-Allen Clinic,Endocrinology,Southeast
+PR0301,"Thomas, Murray and King Clinic",Behavioral Health,Southeast
+PR0302,Estrada-Nolan Clinic,General Surgery,Midwest
+PR0303,Santana-Byrd Health,Endocrinology,Midwest
+PR0304,Jones LLC Clinic,Behavioral Health,Midwest
+PR0305,"Evans, Hayden and Vaughn Clinic",Cardiology,Midwest
+PR0306,Bruce-Gonzalez Health,Orthopedics,Northeast
+PR0307,Castaneda-Rodriguez Medical Group,Behavioral Health,Southwest
+PR0308,Armstrong-Andrews Health,General Surgery,Northeast
+PR0309,"Phillips, Spence and Barrett Health",Primary Care,Southeast
+PR0310,Smith-Grimes Medical Group,Nephrology,West
+PR0311,"Beltran, Lozano and Mcgee Medical Group",Oncology,Southwest
+PR0312,Parsons-Hall Health,General Surgery,Northeast
+PR0313,Robinson-Lee Health,Cardiology,Southwest
+PR0314,Byrd-Le Clinic,Radiology,Northeast
+PR0315,"Becker, Taylor and Davis Clinic",Orthopedics,Northeast
+PR0316,"Lucas, Parker and Alexander Clinic",Emergency Medicine,Southwest
+PR0317,"Diaz, Anderson and Browning Associates",General Surgery,Southeast
+PR0318,Burgess-Thompson Health,Endocrinology,West
+PR0319,Buchanan LLC Medical Group,Radiology,Northeast
+PR0320,"Shaw, Nelson and Martin Medical Group",Primary Care,West
+PR0321,Coffey-Phillips Clinic,Radiology,Southwest
+PR0322,Brock-Mcdonald Health,Endocrinology,Northeast
+PR0323,Taylor and Sons Health,Behavioral Health,Midwest
+PR0324,"Ramsey, Whitney and Coffey Medical Group",Endocrinology,Southwest
+PR0325,"Diaz, Gibbs and Smith Health",Endocrinology,Southeast
+PR0326,"Martinez, Richardson and Curry Associates",Oncology,Midwest
+PR0327,Richards-Carson Health,Oncology,Northeast
+PR0328,Rodriguez-Hall Clinic,Endocrinology,Midwest
+PR0329,Harvey PLC Clinic,Nephrology,Midwest
+PR0330,Herman-Walker Clinic,Endocrinology,Midwest
+PR0331,Reid Group Clinic,Emergency Medicine,Southeast
+PR0332,"Turner, Ortiz and Taylor Associates",Radiology,Midwest
+PR0333,Torres Group Medical Group,Oncology,Southwest
+PR0334,Davis PLC Associates,Primary Care,Northeast
+PR0335,Price LLC Clinic,General Surgery,West
+PR0336,"Avery, Horton and Fernandez Medical Group",Oncology,Midwest
+PR0337,"Newton, Moore and Perry Medical Group",Orthopedics,Southeast
+PR0338,Bass PLC Clinic,Endocrinology,West
+PR0339,Crosby-Ramirez Clinic,Behavioral Health,Southwest
+PR0340,"Wood, Ramos and Sampson Medical Group",Cardiology,Southeast
+PR0341,Garcia-Jennings Medical Group,Oncology,West
+PR0342,"Winters, Newman and Brown Medical Group",Nephrology,Northeast
+PR0343,Lopez-Martinez Clinic,Endocrinology,Midwest
+PR0344,Davis-Lewis Medical Group,Primary Care,Southwest
+PR0345,"Harper, Smith and Buchanan Clinic",Cardiology,West
+PR0346,Zhang PLC Health,Endocrinology,Northeast
+PR0347,Jones PLC Associates,Cardiology,Midwest
+PR0348,Willis and Sons Medical Group,Orthopedics,Southwest
+PR0349,Schroeder-Kramer Health,Endocrinology,Northeast
+PR0350,"Smith, Garrison and Thomas Clinic",Emergency Medicine,Southwest
+PR0351,Fernandez and Sons Medical Group,Orthopedics,West
+PR0352,Guerrero Inc Health,Emergency Medicine,Midwest
+PR0353,Smith and Sons Clinic,General Surgery,Southwest
+PR0354,"Morris, Thompson and Williams Medical Group",Nephrology,Southeast
+PR0355,"Fisher, Wilson and Brown Clinic",Nephrology,Midwest
+PR0356,Strickland-Palmer Medical Group,Radiology,Northeast
+PR0357,Hayes and Sons Medical Group,Nephrology,Northeast
+PR0358,"Williams, Logan and Camacho Clinic",Behavioral Health,West
+PR0359,"Turner, Schneider and Johnson Associates",Endocrinology,Midwest
+PR0360,Boone-Simmons Health,Behavioral Health,Midwest
+PR0361,Henry Group Health,Behavioral Health,Southeast
+PR0362,Lam LLC Health,Oncology,West
+PR0363,"Hernandez, Martinez and Weber Associates",Primary Care,Midwest
+PR0364,"Kelley, Nguyen and Vang Medical Group",Oncology,Northeast
+PR0365,"Phillips, Wagner and Jordan Medical Group",Primary Care,West
+PR0366,"Wilson, Pena and Rich Medical Group",Behavioral Health,Southwest
+PR0367,"Le, Lewis and Hayes Clinic",Radiology,Southeast
+PR0368,Gutierrez Group Health,Emergency Medicine,Southeast
+PR0369,Perry-Davis Clinic,Primary Care,West
+PR0370,Edwards-Scott Medical Group,Oncology,Southwest
+PR0371,Mcdaniel Group Health,Endocrinology,West
+PR0372,Davis Inc Medical Group,Endocrinology,West
+PR0373,Reynolds Ltd Associates,Oncology,West
+PR0374,"Watson, Anderson and Brown Health",Cardiology,Midwest
+PR0375,"Hoffman, Santiago and Jenkins Associates",Orthopedics,Southwest
+PR0376,"Pugh, Henderson and Moon Health",General Surgery,Midwest
+PR0377,Schmitt PLC Associates,Emergency Medicine,Midwest
+PR0378,Bell-Lane Associates,General Surgery,Southeast
+PR0379,Moore Group Medical Group,General Surgery,Southeast
+PR0380,Boone LLC Medical Group,Nephrology,Southwest
+PR0381,"Richardson, Farmer and Andrews Associates",Oncology,Southwest
+PR0382,Bruce-Villegas Associates,Emergency Medicine,West
+PR0383,"Austin, Day and Johnson Health",Endocrinology,Southeast
+PR0384,"Gallegos, Adams and White Associates",Primary Care,Southeast
+PR0385,"Farmer, Dorsey and Bell Clinic",Nephrology,Midwest
+PR0386,Kane PLC Medical Group,Endocrinology,Midwest
+PR0387,"Morales, Thomas and Schultz Medical Group",Behavioral Health,West
+PR0388,Davis PLC Clinic,Emergency Medicine,Southwest
+PR0389,Bennett Group Health,Radiology,Northeast
+PR0390,Moore-Collins Health,Primary Care,Midwest
+PR0391,Frank-Bradley Health,Endocrinology,West
+PR0392,Ware and Sons Medical Group,Nephrology,Northeast
+PR0393,Webster Inc Associates,General Surgery,Northeast
+PR0394,"Miller, Ramos and Coleman Clinic",Emergency Medicine,Northeast
+PR0395,"Ramos, Nelson and Fischer Health",Orthopedics,Southwest
+PR0396,Reed Inc Clinic,Nephrology,Midwest
+PR0397,Gregory-Watkins Clinic,Radiology,Southeast
+PR0398,"Estrada, Williams and Foster Health",Cardiology,Northeast
+PR0399,"Brown, Harris and Dougherty Clinic",Orthopedics,Northeast
+PR0400,Duran LLC Associates,Behavioral Health,West

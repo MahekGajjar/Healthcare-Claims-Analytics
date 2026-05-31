@@ -1,0 +1,6 @@
+plan_id,plan_name,plan_type,monthly_premium
+PL01,Essential HMO,HMO,220
+PL02,Premier PPO,PPO,385
+PL03,Select EPO,EPO,300
+PL04,Senior Advantage,Medicare Advantage,165
+PL05,Value HDHP,HDHP,180
