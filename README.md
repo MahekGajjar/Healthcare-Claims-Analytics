@@ -1,90 +1,135 @@
-# Healthcare Claims & Cost Analytics
+# Healthcare Claims Analytics
 
-This project simulates an enterprise health insurer environment using synthetic claims and membership data. The goal is to analyze healthcare costs, high-cost members, and provider performance using SQL, Data Modeling, and Interactive Dashboards.
+End-to-end analytics project on a synthetic health-insurance claims dataset:
+data modeling, SQL analysis, and an executive dashboard that surfaces what
+actually drives medical spend.
 
-## 1. Business Goal
+**Stack:** Python · SQL (DuckDB / standard SQL) · pandas · matplotlib
 
-Health plans need to answer questions like:
+---
 
-- Which conditions and member segments drive the highest costs?
-- Which providers and specialties are associated with higher per-member-per-month (PMPM) costs?
-- How do costs trend over time by plan type, region, and age group?
-- Who are the "high-cost members" and what patterns do they share?
+## TL;DR — what the data shows
 
-## 2. Tech Stack
+- **$37.7M** in paid claims across **30,399 claims** and **8,000 members**.
+- **The top 5% of members account for 36% of all spending** — textbook cost concentration, and the single most important lever for any care-management program.
+- **Chronic conditions drive 83% of total paid** ($31.2M of $37.7M) despite being a minority of diagnoses. Average chronic claim costs **$1,734 vs. $523** for acute care.
+- **Inpatient care is 46% of spend on just 5% of claim volume** — 1,512 inpatient claims at an average of **$11,504** each.
+- **Spend scales steeply with age:** ~$2,144 paid per member for ages 18–29 vs. **$6,944 for 65+**.
+- **Medicare Advantage carries the highest cost** (PMPM of **$59.37** and a 36% loss ratio); the PPO book runs leanest at a 14.7% loss ratio.
 
-- **Database / SQL**: (to be finalized – e.g., PostgreSQL / SQL Server / BigQuery style SQL)
-- **Analytics / Dashboards**: Power BI or Tableau
-- **Data Modeling**: Star schema (fact & dimension tables)
-- **Documentation**: Markdown (this README), data dictionary
+---
 
-## 3. Data Model (Star Schema – Draft)
+## Dashboard
 
-### fact_claims
+### Executive Overview
+![Executive Overview](images/dashboard_executive_overview.png)
 
-- `claim_id`
-- `member_id`
-- `provider_id`
-- `service_date_id`
-- `paid_amount`
-- `allowed_amount`
-- `diagnosis_code`
-- `procedure_code`
-- `place_of_service`
-- `claim_status`
+### Cost Drivers
+![Cost Drivers](images/dashboard_cost_drivers.png)
 
-### dim_member
+### Plan Performance
+![Plan Performance](images/dashboard_plan_performance.png)
 
-- `member_id`
-- `gender`
-- `age_group`
-- `state`
-- `plan_type`
-- `product_line` (e.g., Commercial, Medicare, Medicaid)
+---
 
-### dim_provider
+## Data model (star schema)
 
-- `provider_id`
-- `provider_type` (facility, professional)
-- `specialty`
-- `state`
-- `network_flag` (in-network / out-of-network)
+A single fact table (`claims`) surrounded by four conformed dimensions:
 
-### dim_date
+```
+                 ┌─────────────┐
+                 │   members   │
+                 └──────┬──────┘
+   ┌────────────┐       │        ┌─────────────┐
+   │   plans    │───┐    │    ┌───│  providers  │
+   └────────────┘   │    │    │   └─────────────┘
+                  ┌──┴────┴────┴──┐
+                  │    claims     │  ← fact
+                  └───────┬───────┘
+                  ┌───────┴───────┐
+                  │   diagnoses   │
+                  └───────────────┘
+```
 
-- `date_id`
-- `date`
-- `month`
-- `quarter`
-- `year`
+| Table | Grain | Key columns |
+|-------|-------|-------------|
+| `claims` | one row per claim line | `claim_id`, `member_id`, `provider_id`, `diagnosis_code`, `claim_type`, `billed/allowed/paid_amount`, `claim_status` |
+| `members` | one row per member | `member_id`, `age`, `gender`, `region`, `plan_id`, `enrollment_date` |
+| `providers` | one row per provider | `provider_id`, `specialty`, `region` |
+| `plans` | one row per plan | `plan_id`, `plan_type`, `monthly_premium` |
+| `diagnoses` | one row per diagnosis code | `diagnosis_code`, `description`, `chronic_flag` |
 
-## 4. Planned Analyses
+The dataset is **fully synthetic and reproducible** — generated with a seeded
+Python script (`data/generate_data.py`). No real patient data is used.
 
-- **PMPM (Per Member Per Month)** cost by:
-  - Product line, plan type, region, age group
-- **High-Cost Members**:
-  - Identify members above specific cost thresholds
-- **Condition-Level Insights**:
-  - Paid amount by diagnosis category
-- **Provider Performance**:
-  - Cost and utilization by specialty and provider type
-- **Trend Analysis**:
-  - Year-over-year and month-over-month cost trends
+---
 
-## 5. Repository Structure (Planned)
+## Business questions answered
 
-- `data/` – synthetic claims & membership datasets (CSV)
-- `sql/` – DDL and analytical SQL queries
-- `dashboards/` – Power BI / Tableau files + screenshots
-- `docs/` – data dictionary, ERD diagrams
-- `images/` – exported images used in documentation
+The SQL in `sql/02_analysis_queries.sql` answers twelve questions, including:
 
-## 6. Status
+1. **PMPM (per member per month) cost by plan type**
+2. Cost concentration — what share of spend comes from the top 5% of members
+3. Provider cost ranking
+4. Quarterly cost trend
+5. Spend by service category (inpatient / outpatient / pharmacy / etc.)
+6. Chronic vs. acute cost comparison
+7. Top diagnoses by total paid
+8. Claim denial rates by service category
+9. Cost by member age band
+10. Regional cost variation
+11. Contractual discount (paid-to-billed ratio) by claim type
+12. Plan-level loss ratio (claims paid vs. premium revenue)
 
-This project is currently in progress. The first milestone is to:
-- Finalize the star schema design
-- Generate synthetic data consistent with the model
-- Load the data into a database and write core cost analytics queries
+---
 
-Once that is complete, I will add dashboards and more documentation.
+## How to run
 
+```bash
+# 1. Install dependencies
+pip install faker pandas numpy matplotlib duckdb
+
+# 2. Generate the synthetic dataset (writes CSVs into data/)
+cd data && python generate_data.py && cd ..
+
+# 3. (Optional) run the SQL analysis against the CSVs with DuckDB
+#    duckdb lets you query the CSVs directly — no load step required.
+
+# 4. Build the dashboard PNGs (writes into images/)
+cd analysis && python dashboard.py
+```
+
+---
+
+## Repository structure
+
+```
+healthcare-claims-analytics/
+├── README.md
+├── data/
+│   ├── generate_data.py        # seeded synthetic data generator
+│   ├── members.csv
+│   ├── providers.csv
+│   ├── plans.csv
+│   ├── diagnoses.csv
+│   └── claims.csv
+├── sql/
+│   ├── 01_schema.sql           # star-schema DDL
+│   └── 02_analysis_queries.sql # 12 analytical queries
+├── analysis/
+│   └── dashboard.py            # builds the three dashboard pages
+└── images/
+    ├── dashboard_executive_overview.png
+    ├── dashboard_cost_drivers.png
+    └── dashboard_plan_performance.png
+```
+
+---
+
+## Notes & caveats
+
+- All figures come from synthetic data and are for demonstration only — they
+  illustrate analytical method, not real population health.
+- Cost distributions were intentionally modeled with a small high-utilizer
+  cohort and a chronic-condition cost premium so the concentration and
+  chronic-spend patterns mirror what is typically seen in real claims data.
